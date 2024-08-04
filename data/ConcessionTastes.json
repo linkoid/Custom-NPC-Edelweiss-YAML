@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "EdelweissSeung": {
+                    "Name": "Edelweiss",
+                    "LovedTags": [
+                        "Apple Slices",
+                        "Cappuccino Mousse Cake",
+                        "Hummus Snack Pack",
+                        "Ice Cream Sandwich",
+                        "Jasmine Tea",
+                        "Salmon Burger",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Truffle Popcorn",
+                        "Star Cookie",
+                        "Sour Slimes",
+                        "Salted Peanuts"
+                    ],
+                    "DislikedTags": [
+                        "Black Licorice",
+                        "Jawbreaker",
+                        "Joja Cola",
+                        "JojaCorn",
+                        "Kale Smoothie"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Mail sends",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "EdelweissWarp": "{{i18n:EdelweissWarpMail}}"
+            }
+        }
+    ]
+}

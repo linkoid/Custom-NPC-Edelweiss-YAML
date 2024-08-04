@@ -1,0 +1,21 @@
+{
+    "Name": "Edelweiss, The Shapeshifting Mage",
+    "Author": "Aviroen",
+    "Version": "1.0.0",
+    "Description": "Custom Romanceable NPC Edelweiss, with expansive dialogue.",
+    "UniqueID": "Aviroen.Edelweiss",
+    "UpdateKeys": [ "Nexus:26053" ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "TheMightyAmondee.CustomTokens",
+            "IsRequired": true
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

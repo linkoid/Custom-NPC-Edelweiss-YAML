@@ -1,0 +1,1176 @@
+{
+    //configs
+    "config.section.Content.name": "Content",
+    "config.section.Content.description": "Changes settings if some parts of story/lore aren't interesting to you.",
+    "config.section.Unwipeable.name": "Unwipeable",
+    "config.section.Unwipeable.description": "Default true to have Edelweiss' memory be unwipeable from the witch statue.",
+    "config.section.Unwipeable.values.true": "true",
+    "config.section.Unwipeable.values.false": "false",
+    "config.section.SpouseRoom.name": "SpouseRoom",
+    "config.section.SpouseRoom.description": "Make Edelweiss' spouseroom unfurnished or furnished.",
+    "config.section.SpouseRoom.values.furnished": "Furnished",
+    "config.section.SpouseRoom.values.unfurnished": "Unfurnished",
+
+    ////////////////////////////////////////////////////////////////////
+    //misc
+    "Their": "their",
+    "Edelweiss": "Edelweiss",
+    "Friend": "Friend",
+    "Teacher": "Teacher",
+    "Colleague": "Colleague",
+    "EdelPortrait": "Edel's Portrait",
+    "Name.Edelweiss": "Edelweiss",
+    "Edel.Dot": "...",
+    "Edel.Cough": "*Cough*",
+    "Edel.Hello": "Hello, @.",
+    "Edel.Laugh": "*Giggle*",
+    "Edel.Sigh": "*Sigh*",
+    "Edelweiss.Warp.Totem": "Artificial Beach Warp Totem",
+    "Edelweiss.Warp.Totem.Description": "A magically crafted warp totem meant to warp to Edelweiss' artificial beach.",
+    "SummitEvent": "I was told by Welwick and Master Rasmodius that this valley would change me, for the better...$3#$b#I doubted their words because of my insecurities.$6#$b#I'm glad that I took the apprenticeship from Rasmodius.$1#$b#You and I have been through so much together, I'm glad that I had someone like you through this chaos.$6#$b#I hope that we get to enjoy many more years together!$10",
+
+    ////////////////////////////////////////////////////////////////////
+    //dialogue
+
+    //////////////////////////////////
+    //schedule dialogue
+    //spring
+    "EdelweissSeung:Spring_Sleepy.1_0": "zzZZZzzzZZz$11#$e#Edelweiss is somehow sleeping while standing up.",
+    //2 to 4 hearts
+    "EdelweissSeung:Spring_Sleepy.1_1": "zzZzzzZZZZzz$9#$e#Edelweiss is sleeping while standing and with their eyes open...#$e#Ah?!$7#$e#H-hello, @, sorry, I'm not much of a morning person...$2",
+    "EdelweissSeung:Spring_Sleepy.1_2": "zzZzzzzzZZzzzZZzz$11#$e#Edelweiss is asleep while standing...#$e#ICE CREAM MONSTER?!$7#$e#O-oh, it's just you, @... I had the strangest dream that I was being eaten...$7#$e#I think I should stop watching TV before bed...$2",
+    "EdelweissSeung:Spring_Sleepy.1_3": "zzZZZzZZZzZzz$11#$e#Edelweiss is channelling magic while asleep...#$e#안녕 아버지$8#$e#나는 당신을 그리워할 것이다$11",
+    //5 to 8 hearts
+    "EdelweissSeung:Spring_Sleepy.1_4": "zZzzzZzZzzzZ$11#$e#Edelweiss is mumbling in their sleep...#$e#",
+    "EdelweissSeung:Spring_Sleepy.1_5": "",
+    "EdelweissSeung:Spring_Sleepy.1_6": "",
+    "EdelweissSeung:Spring_Sleepy.1_7": "",
+    "EdelweissSeung:Spring_Sleepy.1_8": "",
+    //8 to 10 hearts
+    "EdelweissSeung:Spring_Sleepy.1_9": "",
+    "EdelweissSeung:Spring_Sleepy.1_10": "",
+    "EdelweissSeung:Spring_Sleepy.1_11": "",
+    "EdelweissSeung:Spring_Sleepy.1_12": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.2_0": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.2_1": "",
+    "EdelweissSeung:Spring_Sleepy.2_2": "",
+    "EdelweissSeung:Spring_Sleepy.2_3": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.2_4": "",
+    "EdelweissSeung:Spring_Sleepy.2_5": "",
+    "EdelweissSeung:Spring_Sleepy.2_6": "",
+    "EdelweissSeung:Spring_Sleepy.2_7": "",
+    "EdelweissSeung:Spring_Sleepy.2_8": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.2_9": "",
+    "EdelweissSeung:Spring_Sleepy.2_10": "",
+    "EdelweissSeung:Spring_Sleepy.2_11": "",
+    "EdelweissSeung:Spring_Sleepy.2_12": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.3_0": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.3_1": "",
+    "EdelweissSeung:Spring_Sleepy.3_2": "",
+    "EdelweissSeung:Spring_Sleepy.3_3": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.3_4": "",
+    "EdelweissSeung:Spring_Sleepy.3_5": "",
+    "EdelweissSeung:Spring_Sleepy.3_6": "",
+    "EdelweissSeung:Spring_Sleepy.3_7": "",
+    "EdelweissSeung:Spring_Sleepy.3_8": "",
+    //
+    "EdelweissSeung:Spring_Sleepy.3_9": "",
+    "EdelweissSeung:Spring_Sleepy.3_10": "",
+    "EdelweissSeung:Spring_Sleepy.3_11": "",
+    "EdelweissSeung:Spring_Sleepy.3_12": "",
+    //
+    "EdelweissSeung:Spring_Hammer.1_0": "",
+    //
+    "EdelweissSeung:Spring_Hammer.1_1": "",
+    "EdelweissSeung:Spring_Hammer.1_2": "",
+    "EdelweissSeung:Spring_Hammer.1_3": "",
+    //
+    "EdelweissSeung:Spring_Hammer.1_4": "",
+    "EdelweissSeung:Spring_Hammer.1_5": "",
+    "EdelweissSeung:Spring_Hammer.1_6": "",
+    "EdelweissSeung:Spring_Hammer.1_7": "",
+    "EdelweissSeung:Spring_Hammer.1_8": "",
+    //
+    "EdelweissSeung:Spring_Hammer.1_9": "",
+    "EdelweissSeung:Spring_Hammer.1_10": "",
+    "EdelweissSeung:Spring_Hammer.1_11": "",
+    "EdelweissSeung:Spring_Hammer.1_12": "",
+    //
+    "EdelweissSeung:Spring_Alchemy.1_0": "",
+    //
+    "EdelweissSeung:Spring_Alchemy.1_1": "",
+    "EdelweissSeung:Spring_Alchemy.1_2": "",
+    "EdelweissSeung:Spring_Alchemy.1_3": "",
+    //
+    "EdelweissSeung:Spring_Alchemy.1_4": "",
+    "EdelweissSeung:Spring_Alchemy.1_5": "",
+    "EdelweissSeung:Spring_Alchemy.1_6": "",
+    "EdelweissSeung:Spring_Alchemy.1_7": "",
+    "EdelweissSeung:Spring_Alchemy.1_8": "",
+    //
+    "EdelweissSeung:Spring_Alchemy.1_9": "",
+    "EdelweissSeung:Spring_Alchemy.1_10": "",
+    "EdelweissSeung:Spring_Alchemy.1_11": "",
+    "EdelweissSeung:Spring_Alchemy.1_12": "",
+    //
+    "EdelweissSeung:Spring_Reading.1_0": "",
+    //
+    "EdelweissSeung:Spring_Reading.1_1": "",
+    "EdelweissSeung:Spring_Reading.1_2": "",
+    "EdelweissSeung:Spring_Reading.1_3": "",
+    //
+    "EdelweissSeung:Spring_Reading.1_4": "",
+    "EdelweissSeung:Spring_Reading.1_5": "",
+    "EdelweissSeung:Spring_Reading.1_6": "",
+    "EdelweissSeung:Spring_Reading.1_7": "",
+    "EdelweissSeung:Spring_Reading.1_8": "",
+    //
+    "EdelweissSeung:Spring_Reading.1_9": "",
+    "EdelweissSeung:Spring_Reading.1_10": "",
+    "EdelweissSeung:Spring_Reading.1_11": "",
+    "EdelweissSeung:Spring_Reading.1_12": "",
+    //
+    "EdelweissSeung:Spring_Reading.2_0": "",
+    //
+    "EdelweissSeung:Spring_Reading.2_1": "",
+    "EdelweissSeung:Spring_Reading.2_2": "",
+    "EdelweissSeung:Spring_Reading.2_3": "",
+    //
+    "EdelweissSeung:Spring_Reading.2_4": "",
+    "EdelweissSeung:Spring_Reading.2_5": "",
+    "EdelweissSeung:Spring_Reading.2_6": "",
+    "EdelweissSeung:Spring_Reading.2_7": "",
+    "EdelweissSeung:Spring_Reading.2_8": "",
+    //
+    "EdelweissSeung:Spring_Reading.2_9": "",
+    "EdelweissSeung:Spring_Reading.2_10": "",
+    "EdelweissSeung:Spring_Reading.2_11": "",
+    "EdelweissSeung:Spring_Reading.2_12": "",
+    //
+    //egg
+    "Edel.EggFestival": "",
+    "Edel.EggFestival_y2": "",
+    //flower
+    "Edel.FlowerFestival": "",
+    "Edel.FlowerFestival_y2": "",
+
+    //summer
+    "EdelweissSeung:Summer_Sleepy.1_0": "",
+    //2 to 4 hearts
+    "EdelweissSeung:Summer_Sleepy.1_1": "",
+    "EdelweissSeung:Summer_Sleepy.1_2": "",
+    "EdelweissSeung:Summer_Sleepy.1_3": "",
+    //5 to 8 hearts
+    "EdelweissSeung:Summer_Sleepy.1_4": "",
+    "EdelweissSeung:Summer_Sleepy.1_5": "",
+    "EdelweissSeung:Summer_Sleepy.1_6": "",
+    "EdelweissSeung:Summer_Sleepy.1_7": "",
+    "EdelweissSeung:Summer_Sleepy.1_8": "",
+    //8 to 10 hearts
+    "EdelweissSeung:Summer_Sleepy.1_9": "",
+    "EdelweissSeung:Summer_Sleepy.1_10": "",
+    "EdelweissSeung:Summer_Sleepy.1_11": "",
+    "EdelweissSeung:Summer_Sleepy.1_12": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.2_0": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.2_1": "",
+    "EdelweissSeung:Summer_Sleepy.2_2": "",
+    "EdelweissSeung:Summer_Sleepy.2_3": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.2_4": "",
+    "EdelweissSeung:Summer_Sleepy.2_5": "",
+    "EdelweissSeung:Summer_Sleepy.2_6": "",
+    "EdelweissSeung:Summer_Sleepy.2_7": "",
+    "EdelweissSeung:Summer_Sleepy.2_8": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.2_9": "",
+    "EdelweissSeung:Summer_Sleepy.2_10": "",
+    "EdelweissSeung:Summer_Sleepy.2_11": "",
+    "EdelweissSeung:Summer_Sleepy.2_12": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.3_0": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.3_1": "",
+    "EdelweissSeung:Summer_Sleepy.3_2": "",
+    "EdelweissSeung:Summer_Sleepy.3_3": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.3_4": "",
+    "EdelweissSeung:Summer_Sleepy.3_5": "",
+    "EdelweissSeung:Summer_Sleepy.3_6": "",
+    "EdelweissSeung:Summer_Sleepy.3_7": "",
+    "EdelweissSeung:Summer_Sleepy.3_8": "",
+    //
+    "EdelweissSeung:Summer_Sleepy.3_9": "",
+    "EdelweissSeung:Summer_Sleepy.3_10": "",
+    "EdelweissSeung:Summer_Sleepy.3_11": "",
+    "EdelweissSeung:Summer_Sleepy.3_12": "",
+    //
+    "EdelweissSeung:Summer_Hammer.1_0": "",
+    //
+    "EdelweissSeung:Summer_Hammer.1_1": "",
+    "EdelweissSeung:Summer_Hammer.1_2": "",
+    "EdelweissSeung:Summer_Hammer.1_3": "",
+    //
+    "EdelweissSeung:Summer_Hammer.1_4": "",
+    "EdelweissSeung:Summer_Hammer.1_5": "",
+    "EdelweissSeung:Summer_Hammer.1_6": "",
+    "EdelweissSeung:Summer_Hammer.1_7": "",
+    "EdelweissSeung:Summer_Hammer.1_8": "",
+    //
+    "EdelweissSeung:Summer_Hammer.1_9": "",
+    "EdelweissSeung:Summer_Hammer.1_10": "",
+    "EdelweissSeung:Summer_Hammer.1_11": "",
+    "EdelweissSeung:Summer_Hammer.1_12": "",
+    //
+    "EdelweissSeung:Summer_Alchemy.1_0": "",
+    //
+    "EdelweissSeung:Summer_Alchemy.1_1": "",
+    "EdelweissSeung:Summer_Alchemy.1_2": "",
+    "EdelweissSeung:Summer_Alchemy.1_3": "",
+    //
+    "EdelweissSeung:Summer_Alchemy.1_4": "",
+    "EdelweissSeung:Summer_Alchemy.1_5": "",
+    "EdelweissSeung:Summer_Alchemy.1_6": "",
+    "EdelweissSeung:Summer_Alchemy.1_7": "",
+    "EdelweissSeung:Summer_Alchemy.1_8": "",
+    //
+    "EdelweissSeung:Summer_Alchemy.1_9": "",
+    "EdelweissSeung:Summer_Alchemy.1_10": "",
+    "EdelweissSeung:Summer_Alchemy.1_11": "",
+    "EdelweissSeung:Summer_Alchemy.1_12": "",
+    //
+    "EdelweissSeung:Summer_Reading.1_0": "",
+    //
+    "EdelweissSeung:Summer_Reading.1_1": "",
+    "EdelweissSeung:Summer_Reading.1_2": "",
+    "EdelweissSeung:Summer_Reading.1_3": "",
+    //
+    "EdelweissSeung:Summer_Reading.1_4": "",
+    "EdelweissSeung:Summer_Reading.1_5": "",
+    "EdelweissSeung:Summer_Reading.1_6": "",
+    "EdelweissSeung:Summer_Reading.1_7": "",
+    "EdelweissSeung:Summer_Reading.1_8": "",
+    //
+    "EdelweissSeung:Summer_Reading.1_9": "",
+    "EdelweissSeung:Summer_Reading.1_10": "",
+    "EdelweissSeung:Summer_Reading.1_11": "",
+    "EdelweissSeung:Summer_Reading.1_12": "",
+    //
+    "EdelweissSeung:Summer_Reading.2_0": "",
+    //
+    "EdelweissSeung:Summer_Reading.2_1": "",
+    "EdelweissSeung:Summer_Reading.2_2": "",
+    "EdelweissSeung:Summer_Reading.2_3": "",
+    //
+    "EdelweissSeung:Summer_Reading.2_4": "",
+    "EdelweissSeung:Summer_Reading.2_5": "",
+    "EdelweissSeung:Summer_Reading.2_6": "",
+    "EdelweissSeung:Summer_Reading.2_7": "",
+    "EdelweissSeung:Summer_Reading.2_8": "",
+    //
+    "EdelweissSeung:Summer_Reading.2_9": "",
+    "EdelweissSeung:Summer_Reading.2_10": "",
+    "EdelweissSeung:Summer_Reading.2_11": "",
+    "EdelweissSeung:Summer_Reading.2_12": "",
+    //
+    //luau
+    "Edel.Luau": "",
+    "Edel.Luau_y2": "",
+
+    //fall
+    "EdelweissSeung:Fall_Sleepy.1_0": "",
+    //2 to 4 hearts
+    "EdelweissSeung:Fall_Sleepy.1_1": "",
+    "EdelweissSeung:Fall_Sleepy.1_2": "",
+    "EdelweissSeung:Fall_Sleepy.1_3": "",
+    //5 to 8 hearts
+    "EdelweissSeung:Fall_Sleepy.1_4": "",
+    "EdelweissSeung:Fall_Sleepy.1_5": "",
+    "EdelweissSeung:Fall_Sleepy.1_6": "",
+    "EdelweissSeung:Fall_Sleepy.1_7": "",
+    "EdelweissSeung:Fall_Sleepy.1_8": "",
+    //8 to 10 hearts
+    "EdelweissSeung:Fall_Sleepy.1_9": "",
+    "EdelweissSeung:Fall_Sleepy.1_10": "",
+    "EdelweissSeung:Fall_Sleepy.1_11": "",
+    "EdelweissSeung:Fall_Sleepy.1_12": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.2_0": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.2_1": "",
+    "EdelweissSeung:Fall_Sleepy.2_2": "",
+    "EdelweissSeung:Fall_Sleepy.2_3": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.2_4": "",
+    "EdelweissSeung:Fall_Sleepy.2_5": "",
+    "EdelweissSeung:Fall_Sleepy.2_6": "",
+    "EdelweissSeung:Fall_Sleepy.2_7": "",
+    "EdelweissSeung:Fall_Sleepy.2_8": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.2_9": "",
+    "EdelweissSeung:Fall_Sleepy.2_10": "",
+    "EdelweissSeung:Fall_Sleepy.2_11": "",
+    "EdelweissSeung:Fall_Sleepy.2_12": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.3_0": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.3_1": "",
+    "EdelweissSeung:Fall_Sleepy.3_2": "",
+    "EdelweissSeung:Fall_Sleepy.3_3": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.3_4": "",
+    "EdelweissSeung:Fall_Sleepy.3_5": "",
+    "EdelweissSeung:Fall_Sleepy.3_6": "",
+    "EdelweissSeung:Fall_Sleepy.3_7": "",
+    "EdelweissSeung:Fall_Sleepy.3_8": "",
+    //
+    "EdelweissSeung:Fall_Sleepy.3_9": "",
+    "EdelweissSeung:Fall_Sleepy.3_10": "",
+    "EdelweissSeung:Fall_Sleepy.3_11": "",
+    "EdelweissSeung:Fall_Sleepy.3_12": "",
+    //
+    "EdelweissSeung:Fall_Hammer.1_0": "",
+    //
+    "EdelweissSeung:Fall_Hammer.1_1": "",
+    "EdelweissSeung:Fall_Hammer.1_2": "",
+    "EdelweissSeung:Fall_Hammer.1_3": "",
+    //
+    "EdelweissSeung:Fall_Hammer.1_4": "",
+    "EdelweissSeung:Fall_Hammer.1_5": "",
+    "EdelweissSeung:Fall_Hammer.1_6": "",
+    "EdelweissSeung:Fall_Hammer.1_7": "",
+    "EdelweissSeung:Fall_Hammer.1_8": "",
+    //
+    "EdelweissSeung:Fall_Hammer.1_9": "",
+    "EdelweissSeung:Fall_Hammer.1_10": "",
+    "EdelweissSeung:Fall_Hammer.1_11": "",
+    "EdelweissSeung:Fall_Hammer.1_12": "",
+    //
+    "EdelweissSeung:Fall_Alchemy.1_0": "",
+    //
+    "EdelweissSeung:Fall_Alchemy.1_1": "",
+    "EdelweissSeung:Fall_Alchemy.1_2": "",
+    "EdelweissSeung:Fall_Alchemy.1_3": "",
+    //
+    "EdelweissSeung:Fall_Alchemy.1_4": "",
+    "EdelweissSeung:Fall_Alchemy.1_5": "",
+    "EdelweissSeung:Fall_Alchemy.1_6": "",
+    "EdelweissSeung:Fall_Alchemy.1_7": "",
+    "EdelweissSeung:Fall_Alchemy.1_8": "",
+    //
+    "EdelweissSeung:Fall_Alchemy.1_9": "",
+    "EdelweissSeung:Fall_Alchemy.1_10": "",
+    "EdelweissSeung:Fall_Alchemy.1_11": "",
+    "EdelweissSeung:Fall_Alchemy.1_12": "",
+    //
+    "EdelweissSeung:Fall_Reading.1_0": "",
+    //
+    "EdelweissSeung:Fall_Reading.1_1": "",
+    "EdelweissSeung:Fall_Reading.1_2": "",
+    "EdelweissSeung:Fall_Reading.1_3": "",
+    //
+    "EdelweissSeung:Fall_Reading.1_4": "",
+    "EdelweissSeung:Fall_Reading.1_5": "",
+    "EdelweissSeung:Fall_Reading.1_6": "",
+    "EdelweissSeung:Fall_Reading.1_7": "",
+    "EdelweissSeung:Fall_Reading.1_8": "",
+    //
+    "EdelweissSeung:Fall_Reading.1_9": "",
+    "EdelweissSeung:Fall_Reading.1_10": "",
+    "EdelweissSeung:Fall_Reading.1_11": "",
+    "EdelweissSeung:Fall_Reading.1_12": "",
+    //
+    "EdelweissSeung:Fall_Reading.2_0": "",
+    //
+    "EdelweissSeung:Fall_Reading.2_1": "",
+    "EdelweissSeung:Fall_Reading.2_2": "",
+    "EdelweissSeung:Fall_Reading.2_3": "",
+    //
+    "EdelweissSeung:Fall_Reading.2_4": "",
+    "EdelweissSeung:Fall_Reading.2_5": "",
+    "EdelweissSeung:Fall_Reading.2_6": "",
+    "EdelweissSeung:Fall_Reading.2_7": "",
+    "EdelweissSeung:Fall_Reading.2_8": "",
+    //
+    "EdelweissSeung:Fall_Reading.2_9": "",
+    "EdelweissSeung:Fall_Reading.2_10": "",
+    "EdelweissSeung:Fall_Reading.2_11": "",
+    "EdelweissSeung:Fall_Reading.2_12": "",
+    //
+    //fair
+    "Edel.Fair": "",
+    "Edel.Fair_y2": "",
+    //spirit
+    "Edel.Spirit": "",
+    "Edel.Spirit_y2": "",
+
+    //fall18
+    "EdelweissSeung:Fall_18.Meditate": "",
+    "EdelweissSeung:Fall_18.Kitchen": "",
+    //spirits
+
+    //winter
+    "EdelweissSeung:Winter_Sleepy.1_0": "",
+    //2 to 4 hearts
+    "EdelweissSeung:Winter_Sleepy.1_1": "",
+    "EdelweissSeung:Winter_Sleepy.1_2": "",
+    "EdelweissSeung:Winter_Sleepy.1_3": "",
+    //5 to 8 hearts
+    "EdelweissSeung:Winter_Sleepy.1_4": "",
+    "EdelweissSeung:Winter_Sleepy.1_5": "",
+    "EdelweissSeung:Winter_Sleepy.1_6": "",
+    "EdelweissSeung:Winter_Sleepy.1_7": "",
+    "EdelweissSeung:Winter_Sleepy.1_8": "",
+    //8 to 10 hearts
+    "EdelweissSeung:Winter_Sleepy.1_9": "",
+    "EdelweissSeung:Winter_Sleepy.1_10": "",
+    "EdelweissSeung:Winter_Sleepy.1_11": "",
+    "EdelweissSeung:Winter_Sleepy.1_12": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.2_0": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.2_1": "",
+    "EdelweissSeung:Winter_Sleepy.2_2": "",
+    "EdelweissSeung:Winter_Sleepy.2_3": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.2_4": "",
+    "EdelweissSeung:Winter_Sleepy.2_5": "",
+    "EdelweissSeung:Winter_Sleepy.2_6": "",
+    "EdelweissSeung:Winter_Sleepy.2_7": "",
+    "EdelweissSeung:Winter_Sleepy.2_8": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.2_9": "",
+    "EdelweissSeung:Winter_Sleepy.2_10": "",
+    "EdelweissSeung:Winter_Sleepy.2_11": "",
+    "EdelweissSeung:Winter_Sleepy.2_12": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.3_0": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.3_1": "",
+    "EdelweissSeung:Winter_Sleepy.3_2": "",
+    "EdelweissSeung:Winter_Sleepy.3_3": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.3_4": "",
+    "EdelweissSeung:Winter_Sleepy.3_5": "",
+    "EdelweissSeung:Winter_Sleepy.3_6": "",
+    "EdelweissSeung:Winter_Sleepy.3_7": "",
+    "EdelweissSeung:Winter_Sleepy.3_8": "",
+    //
+    "EdelweissSeung:Winter_Sleepy.3_9": "",
+    "EdelweissSeung:Winter_Sleepy.3_10": "",
+    "EdelweissSeung:Winter_Sleepy.3_11": "",
+    "EdelweissSeung:Winter_Sleepy.3_12": "",
+    //
+    "EdelweissSeung:Winter_Hammer.1_0": "",
+    //
+    "EdelweissSeung:Winter_Hammer.1_1": "",
+    "EdelweissSeung:Winter_Hammer.1_2": "",
+    "EdelweissSeung:Winter_Hammer.1_3": "",
+    //
+    "EdelweissSeung:Winter_Hammer.1_4": "",
+    "EdelweissSeung:Winter_Hammer.1_5": "",
+    "EdelweissSeung:Winter_Hammer.1_6": "",
+    "EdelweissSeung:Winter_Hammer.1_7": "",
+    "EdelweissSeung:Winter_Hammer.1_8": "",
+    //
+    "EdelweissSeung:Winter_Hammer.1_9": "",
+    "EdelweissSeung:Winter_Hammer.1_10": "",
+    "EdelweissSeung:Winter_Hammer.1_11": "",
+    "EdelweissSeung:Winter_Hammer.1_12": "",
+    //
+    "EdelweissSeung:Winter_Alchemy.1_0": "",
+    //
+    "EdelweissSeung:Winter_Alchemy.1_1": "",
+    "EdelweissSeung:Winter_Alchemy.1_2": "",
+    "EdelweissSeung:Winter_Alchemy.1_3": "",
+    //
+    "EdelweissSeung:Winter_Alchemy.1_4": "",
+    "EdelweissSeung:Winter_Alchemy.1_5": "",
+    "EdelweissSeung:Winter_Alchemy.1_6": "",
+    "EdelweissSeung:Winter_Alchemy.1_7": "",
+    "EdelweissSeung:Winter_Alchemy.1_8": "",
+    //
+    "EdelweissSeung:Winter_Alchemy.1_9": "",
+    "EdelweissSeung:Winter_Alchemy.1_10": "",
+    "EdelweissSeung:Winter_Alchemy.1_11": "",
+    "EdelweissSeung:Winter_Alchemy.1_12": "",
+    //
+    "EdelweissSeung:Winter_Reading.1_0": "",
+    //
+    "EdelweissSeung:Winter_Reading.1_1": "",
+    "EdelweissSeung:Winter_Reading.1_2": "",
+    "EdelweissSeung:Winter_Reading.1_3": "",
+    //
+    "EdelweissSeung:Winter_Reading.1_4": "",
+    "EdelweissSeung:Winter_Reading.1_5": "",
+    "EdelweissSeung:Winter_Reading.1_6": "",
+    "EdelweissSeung:Winter_Reading.1_7": "",
+    "EdelweissSeung:Winter_Reading.1_8": "",
+    //
+    "EdelweissSeung:Winter_Reading.1_9": "",
+    "EdelweissSeung:Winter_Reading.1_10": "",
+    "EdelweissSeung:Winter_Reading.1_11": "",
+    "EdelweissSeung:Winter_Reading.1_12": "",
+    //
+    "EdelweissSeung:Winter_Reading.2_0": "",
+    //
+    "EdelweissSeung:Winter_Reading.2_1": "",
+    "EdelweissSeung:Winter_Reading.2_2": "",
+    "EdelweissSeung:Winter_Reading.2_3": "",
+    //
+    "EdelweissSeung:Winter_Reading.2_4": "",
+    "EdelweissSeung:Winter_Reading.2_5": "",
+    "EdelweissSeung:Winter_Reading.2_6": "",
+    "EdelweissSeung:Winter_Reading.2_7": "",
+    "EdelweissSeung:Winter_Reading.2_8": "",
+    //
+    "EdelweissSeung:Winter_Reading.2_9": "",
+    "EdelweissSeung:Winter_Reading.2_10": "",
+    "EdelweissSeung:Winter_Reading.2_11": "",
+    "EdelweissSeung:Winter_Reading.2_12": "",
+    //
+    //star
+    "Edel.Xmas": "",
+    "Edel.Xmas_y2": "",
+
+    //rain
+    "EdelweissSeung:Rain_1_0": "",
+    "EdelweissSeung:Rain_1_1": "",
+    "EdelweissSeung:Rain_1_2": "",
+    "EdelweissSeung:Rain_1_3": "",
+    "EdelweissSeung:Rain_1_4": "",
+    "EdelweissSeung:Rain_1_5": "",
+    "EdelweissSeung:Rain_1_6": "",
+    "EdelweissSeung:Rain_1_7": "",
+    "EdelweissSeung:Rain_1_8": "",
+    "EdelweissSeung:Rain_1_9": "",
+    "EdelweissSeung:Rain_1_10": "",
+    "EdelweissSeung:Rain_1_11": "",
+    "EdelweissSeung:Rain_1_12": "",
+    //
+    "EdelweissSeung:Rain_2_0": "",
+    "EdelweissSeung:Rain_2_1": "",
+    "EdelweissSeung:Rain_2_2": "",
+    "EdelweissSeung:Rain_2_3": "",
+    "EdelweissSeung:Rain_2_4": "",
+    "EdelweissSeung:Rain_2_5": "",
+    "EdelweissSeung:Rain_2_6": "",
+    "EdelweissSeung:Rain_2_7": "",
+    "EdelweissSeung:Rain_2_8": "",
+    "EdelweissSeung:Rain_2_9": "",
+    "EdelweissSeung:Rain_2_10": "",
+    "EdelweissSeung:Rain_2_11": "",
+    "EdelweissSeung:Rain_2_12": "",
+    //
+    "EdelweissSeung:Rain_3_0": "",
+    "EdelweissSeung:Rain_3_1": "",
+    "EdelweissSeung:Rain_3_2": "",
+    "EdelweissSeung:Rain_3_3": "",
+    "EdelweissSeung:Rain_3_4": "",
+    "EdelweissSeung:Rain_3_5": "",
+    "EdelweissSeung:Rain_3_6": "",
+    "EdelweissSeung:Rain_3_7": "",
+    "EdelweissSeung:Rain_3_8": "",
+    "EdelweissSeung:Rain_3_9": "",
+    "EdelweissSeung:Rain_3_10": "",
+    "EdelweissSeung:Rain_3_11": "",
+    "EdelweissSeung:Rain_3_12": "",
+    //
+    "EdelweissSeung:Rain_4_0": "",
+    "EdelweissSeung:Rain_4_1": "",
+    "EdelweissSeung:Rain_4_2": "",
+    "EdelweissSeung:Rain_4_3": "",
+    "EdelweissSeung:Rain_4_4": "",
+    "EdelweissSeung:Rain_4_5": "",
+    "EdelweissSeung:Rain_4_6": "",
+    "EdelweissSeung:Rain_4_7": "",
+    "EdelweissSeung:Rain_4_8": "",
+    "EdelweissSeung:Rain_4_9": "",
+    "EdelweissSeung:Rain_4_10": "",
+    "EdelweissSeung:Rain_4_11": "",
+    "EdelweissSeung:Rain_4_12": "",
+    //
+    "EdelweissSeung:Rain_5_0": "",
+    "EdelweissSeung:Rain_5_1": "",
+    "EdelweissSeung:Rain_5_2": "",
+    "EdelweissSeung:Rain_5_3": "",
+    "EdelweissSeung:Rain_5_4": "",
+    "EdelweissSeung:Rain_5_5": "",
+    "EdelweissSeung:Rain_5_6": "",
+    "EdelweissSeung:Rain_5_7": "",
+    "EdelweissSeung:Rain_5_8": "",
+    "EdelweissSeung:Rain_5_9": "",
+    "EdelweissSeung:Rain_5_10": "",
+    "EdelweissSeung:Rain_5_11": "",
+    "EdelweissSeung:Rain_5_12": "",
+    //
+    "EdelweissSeung:Rain_6_0": "",
+    "EdelweissSeung:Rain_6_1": "",
+    "EdelweissSeung:Rain_6_2": "",
+    "EdelweissSeung:Rain_6_3": "",
+    "EdelweissSeung:Rain_6_4": "",
+    "EdelweissSeung:Rain_6_5": "",
+    "EdelweissSeung:Rain_6_6": "",
+    "EdelweissSeung:Rain_6_7": "",
+    "EdelweissSeung:Rain_6_8": "",
+    "EdelweissSeung:Rain_6_9": "",
+    "EdelweissSeung:Rain_6_10": "",
+    "EdelweissSeung:Rain_6_11": "",
+    "EdelweissSeung:Rain_6_12": "",
+
+    //married
+    //hammer
+    "EdelweissSeung:Married.Hammer_0": "",
+    "EdelweissSeung:Married.Hammer_1": "",
+    "EdelweissSeung:Married.Hammer_2": "",
+    "EdelweissSeung:Married.Hammer_3": "",
+    "EdelweissSeung:Married.Hammer_4": "",
+    "EdelweissSeung:Married.Hammer_5": "",
+    "EdelweissSeung:Married.Hammer_6": "",
+    "EdelweissSeung:Married.Hammer_7": "",
+    "EdelweissSeung:Married.Hammer_8": "",
+    "EdelweissSeung:Married.Hammer_9": "",
+    "EdelweissSeung:Married.Hammer_10": "",
+    //alchemy
+    "EdelweissSeung:Married.Alchemy_0": "",
+    "EdelweissSeung:Married.Alchemy_1": "",
+    "EdelweissSeung:Married.Alchemy_2": "",
+    "EdelweissSeung:Married.Alchemy_3": "",
+    "EdelweissSeung:Married.Alchemy_4": "",
+    "EdelweissSeung:Married.Alchemy_5": "",
+    "EdelweissSeung:Married.Alchemy_6": "",
+    "EdelweissSeung:Married.Alchemy_7": "",
+    "EdelweissSeung:Married.Alchemy_8": "",
+    "EdelweissSeung:Married.Alchemy_9": "",
+    "EdelweissSeung:Married.Alchemy_10": "",
+    //reading
+    "EdelweissSeung:Married.Read_0": "",
+    "EdelweissSeung:Married.Read_1": "",
+    "EdelweissSeung:Married.Read_2": "",
+    "EdelweissSeung:Married.Read_3": "",
+    "EdelweissSeung:Married.Read_4": "",
+    "EdelweissSeung:Married.Read_5": "",
+    "EdelweissSeung:Married.Read_6": "",
+    "EdelweissSeung:Married.Read_7": "",
+    "EdelweissSeung:Married.Read_8": "",
+    "EdelweissSeung:Married.Read_9": "",
+    "EdelweissSeung:Married.Read_10": "",
+
+    //characters/dialogue
+    //flower dance
+    "danceRejection_0": "",
+    "danceRejection_1": "",
+    "danceRejection_2": "",
+    "danceRejection_3": "",
+    //movie invitation
+    "MovieInvitation_0": "",
+    "MovieInvitation_1": "",
+    "MovieInvitation_2": "",
+    "MovieInvitation_3": "",
+    //breakup
+    "breakUp_0": "",
+    "breakUp_1": "",
+    "breakUp_2": "",
+    "breakUp_3": "",
+    //divorced
+    "divorced_0": "",
+    "divorced_1": "",
+    "divorced_2": "",
+    "divorced_3": "",
+    "divorced_4": "",
+    "divorced_5": "",
+    "divorced_6": "",
+    "divorced_7": "",
+    "divorced_8": "",
+    "divorced_9": "",
+    "divorced_10": "",
+    //resort
+    "Resort_0": "",
+    "Resort_1": "",
+    "Resort_2": "",
+    "Resort_3": "",
+    //bar
+    "Resort_Bar_0": "",
+    "Resort_Bar_1": "",
+    "Resort_Bar_2": "",
+    "Resort_Bar_3": "",
+    //chair
+    "Resort_Chair_0": "",
+    "Resort_Chair_1": "",
+    "Resort_Chair_2": "",
+    "Resort_Chair_3": "",
+    //dance
+    "Resort_Dance_0": "",
+    "Resort_Dance_1": "",
+    "Resort_Dance_2": "",
+    "Resort_Dance_3": "",
+    //entering
+    "Resort_Entering_0": "",
+    "Resort_Entering_1": "",
+    "Resort_Entering_2": "",
+    "Resort_Entering_3": "",
+    //leaving
+    "Resort_Leaving_0": "",
+    "Resort_Leaving_1": "",
+    "Resort_Leaving_2": "",
+    "Resort_Leaving_3": "",
+    //shore
+    "Resort_Shore_0": "",
+    "Resort_Shore_1": "",
+    "Resort_Shore_2": "",
+    "Resort_Shore_3": "",
+    //towel
+    "Resort_Towel_0": "",
+    "Resort_Towel_1": "",
+    "Resort_Towel_2": "",
+    "Resort_Towel_3": "",
+    //umbrella
+    "Resort_Umbrella_0": "",
+    "Resort_Umbrella_1": "",
+    "Resort_Umbrella_2": "",
+    "Resort_Umbrella_3": "",
+    //wander
+    "Resort_Wander_0": "",
+    "Resort_Wander_1": "",
+    "Resort_Wander_2": "",
+    "Resort_Wander_3": "",
+
+    //birthday gift
+    "AcceptBirthdayGift_Negative": "",
+    "AcceptBirthdayGift_Positive": "",
+    "AcceptBirthdayGift": "",
+    //misc
+    "DumpsterDiveComment": "",
+    "HitBySlingshot": "",
+    //bouquet
+    "AcceptBouquet": "",
+    "RejectBouquet_Divorced": "",
+    "RejectBouquet_NotDatable": "",
+    "RejectBouquet_NpcAlreadyMarried": "",
+    "RejectBouquet_VeryLowHearts": "",
+    "RejectBouquet_LowHearts": "",
+    "RejectBouquet": "",
+    //reject
+    "RejectGift_Divorced": "",
+    "RejectMermaidPendant_Divorced": "",
+    "RejectMermaidPendant_NeedHouseUpgrade": "",
+    "RejectMermaidPendant_NotDatable": "",
+    "RejectMermaidPendant_NpcWithSomeoneElse": "",
+    "RejectMermaidPendant_PlayerWithSomeoneElse": "",
+    "RejectMermaidPendant_Under8Hearts": "",
+    "RejectMermaidPendant_Under10Hearts": "",
+    "RejectMermaidPendant_Under10Hearts_AskedAgain": "",
+    "RejectMermaidPendant": "",
+    "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "",
+    "RejectMovieTicket_AlreadyWatchedThisWeek": "",
+    "RejectMovieTicket_Divorced": "",
+    "RejectMovieTicket_DontWantToSeeThatMovie": "",
+    "RejectMovieTicket": "",
+    //spouse misc
+    "SpouseFarmhouseClutter": "",
+    "Spouse_MonstersInHouse": "",
+    "SpouseStardrop": "",
+    //stardew fair
+    "Fair_Judging": "",
+    "Fair_Judged_PlayerLost_PurpleShorts": "",
+    "Fair_Judged_PlayerLost_Skipped": "",
+    "Fair_Judged_PlayerLost": "",
+    "Fair_Judged_PlayerWon": "",
+    "Fair_Judged": "",
+    //flowerdance
+    "FlowerDance_Accept_Spouse": "",
+    "FlowerDance_Accept": "",
+    "FlowerDance_Decline": "",
+    //winterstar
+    "WinterStar_GiveGift_Before_Spouse": "",
+    "WinterStar_GiveGift_Before": "",
+    "WinterStar_GiveGift_After_Spouse": "",
+    "WinterStar_GiveGift_After": "",
+    "WinterStar_ReceiveGift": "",
+    //wipedmemory
+    "WipedMemory_0": "",
+    "WipedMemory_1": "",
+    "WipedMemory_2": "",
+    "WipedMemory_3": "",
+    "WipedMemory_4": "",
+    "WipedMemory_5": "",
+    "WipedMemory_6": "",
+    "WipedMemory_7": "",
+    "WipedMemory_8": "",
+    "WipedMemory_9": "",
+    "WipedMemory_10": "",
+
+    //at work dialogue
+    //friendly
+    "FCustom_EdelweissBeach_0": "",
+    "FCustom_EdelweissBeach_1": "",
+    "FCustom_EdelweissBeach_2": "",
+    "FCustom_EdelweissBeach_3": "",
+    //dating
+    "DCustom_EdelweissBeach_0": "",
+    "DCustom_EdelweissBeach_1": "",
+    "DCustom_EdelweissBeach_2": "",
+    "DCustom_EdelweissBeach_3": "",
+    //married
+    "MCustom_EdelweissBeach_0": "",
+    "MCustom_EdelweissBeach_1": "",
+    "MCustom_EdelweissBeach_2": "",
+    "MCustom_EdelweissBeach_3": "",
+    //farmer preg
+    "PFCustom_EdelweissBeach_0": "",
+    "PFCustom_EdelweissBeach_1": "",
+    "PFCustom_EdelweissBeach_2": "",
+    "PFCustom_EdelweissBeach_3": "",
+    //edel preg
+    "PECustom_EdelweissBeach_0": "",
+    "PECustom_EdelweissBeach_1": "",
+    "PECustom_EdelweissBeach_2": "",
+    "PECustom_EdelweissBeach_3": "",
+
+    ////////////////////////////////////////////////////////////////////
+    //heart events
+
+    ////////////////////////////////////////////////////////////////////
+    //gifts
+
+    //base
+    "Gifts.Loved": "",
+    "Gifts.Liked": "",
+    "Gifts.Disliked": "",
+    "Gifts.Hated": "",
+    "Gifts.Neutral": "",
+
+    //specifics gift dialogue acceptance
+    "AcceptGift_(O)96": "",
+    "AcceptGift_(O)97": "",
+    "AcceptGift_(O)98": "",
+    "AcceptGift_(O)99": "",
+    "AcceptGift_(O)104": "",
+    "AcceptGift_(O)121": "",
+    "AcceptGift_(O)122": "",
+    "AcceptGift_(O)124": "",
+    "AcceptGift_(O)125": "",
+    "AcceptGift_(O)MysticTreeSeed": "",
+    "AcceptGift_(O)MysticSyrup": "",
+    "AcceptGift_(O)StardropTea": "",
+    "AcceptGift_(O)PurpleBook": "",
+    "AcceptGift_(O)SkillBook_0": "",
+    "AcceptGift_(O)SkillBook_1": "",
+    "AcceptGift_(O)SkullBook_2": "",
+    "AcceptGift_(O)SkullBook_3": "",
+    "AcceptGift_(O)SkullBook_4": "",
+    "AcceptGift_(O)Book_Trash": "",
+    "AcceptGift_(O)Book_Crabbing": "",
+    "AcceptGift_(O)Boob_Bombs": "",
+    "AcceptGift_(O)Book_Roe": "",
+    "AcceptGift_(O)Book_WildSeeds": "",
+    "AcceptGift_(O)Book_Woodcutting": "",
+    "AcceptGift_(O)Book_Defense": "",
+    "AcceptGift_(O)Book_Friendship": "",
+    "AcceptGift_(O)Book_Void": "",
+    "AcceptGift_(O)Book_Speed": "",
+    "AcceptGift_(O)Book_Marlon": "",
+    "AcceptGift_(O)Book_PriceCatalogue": "",
+    "AcceptGift_(O)Book_QueenOfSauce": "",
+    "AcceptGift_(O)Book_Diamonds": "",
+    "AcceptGift_(O)Book_Mystery": "",
+    "AcceptGift_(O)Book_AnimalCatalogue": "",
+    "AcceptGift_(O)Book_Speed2": "",
+    "AcceptGift_(O)Book_Artifact": "",
+    "AcceptGift_(O)Book_Horse": "",
+    //reject gift
+    "RejectGift_(O)FarAwayStone": "",
+    "RejectGift_(O)CalicoEgg": "",
+    "RejectGift_(O)MixedFlowerSeeds": "",
+    "RejectGift_(O)GoldenBobber": "",
+    "RejectGift_(O)DeluxeBait": "",
+    "RejectGift_(O)Moss": "",
+    "RejectGift_(O)MossySeed": "",
+    "RejectGift_(O)SonarBobber": "",
+    "RejectGift_(O)SpecificBait": "",
+    "RejectGift_(O)Raisins": "",
+    "RejectGift_(O)DriedFruit": "",
+    "RejectGift_(O)DriedMushrooms": "",
+    "RejectGift_(O)PrizeTicket": "",
+    "RejectGift_(O)TreasureTotem": "",
+    "RejectGift_(O)ChallengeBait": "",
+    "RejectGift_(O)CarrotSeeds": "",
+    "RejectGift_(O)Carrot": "",
+    "RejectGift_(O)SummerSquashSeeds": "",
+    "RejectGift_(O)SummerSquash": "",
+    "RejectGift_(O)BroccoliSeeds": "",
+    "RejectGift_(O)Broccoli": "",
+    "RejectGift_(O)PowdermelonSeeds": "",
+    "RejectGift_(O)Powdermelon": "",
+    "RejectGift_(O)SmokedFish": "",
+    "RejectGift_(O)GoldenAnimalCracker": "",
+    "RejectGift_(O)GoldenMysteryBox": "",
+    "RejectGift_(O)SeaJelly": "",
+    "RejectGift_(O)CaveJelly": "",
+    "RejectGift_(O)RiverJelly": "",
+    "RejectGift_(O)ButterflyPowder": "",
+    "RejectGift_(O)MossSoup": "",
+    //reject marriage wilted bouquet and bouquet
+    "MRejectGift_(O)277": "",
+    "MRejectGift_(O)458": "",
+    //reject player preg wilted bouquet and bouquet
+    "PFRejectGift_(O)277": "",
+    "PFRejectGift_(O)458": "",
+    //reject edel preg wilted bouquet and bouquet
+    "PERejectGift_(O)277": "",
+    "PERejectGift_(O)458": "",
+
+    ////////////////////////////////////////////////////////////////////
+    //marriage dialogue
+    "Engagement0During_0": "",
+    "Engagement0During_1": "",
+    "Engagement0During_2": "",
+    "Engagement0During_3": "",
+    "Engagement1During_0": "",
+    "Engagement1During_1": "",
+    "Engagement1During_2": "",
+    "Engagement1During_3": "",
+    "Spring_0": "",
+    "Spring_1": "",
+    "Spring_2": "",
+    "Spring_3": "",
+    "Summer_0": "",
+    "Summer_1": "",
+    "Summer_2": "",
+    "Summer_3": "",
+    "Fall_0": "",
+    "Fall_1": "",
+    "Fall_2": "",
+    "Fall_3": "",
+    "Winter_0": "",
+    "Winter_1": "",
+    "Winter_2": "",
+    "Winter_3": "",
+    "patio_0": "",
+    "patio_1": "",
+    "patio_2": "",
+    "patio_3": "",
+    "Rainy_Day_0": "",
+    "Rainy_Day_1": "",
+    "Rainy_Day_2": "",
+    "Rainy_Day_3": "",
+    "Rainy_Day_4": "",
+    "Rainy_Day_5": "",
+    "Indoor_Day_0": "",
+    "Indoor_Day_1": "",
+    "Indoor_Day_2": "",
+    "Indoor_Day_3": "",
+    "Indoor_Day_4": "",
+    "Indoor_Day_5": "",
+    "Rainy_Night_0": "",
+    "Rainy_Night_1": "",
+    "Rainy_Night_2": "",
+    "Rainy_Night_3": "",
+    "Rainy_Night_4": "",
+    "Rainy_Night_5": "",
+    "Indoor_Night_0": "",
+    "Indoor_Night_1": "",
+    "Indoor_Night_2": "",
+    "Indoor_Night_3": "",
+    "Indoor_Night_4": "",
+    "Indoor_Night_5": "",
+    "funLeave_0": "",
+    "funLeave_1": "",
+    "funLeave_2": "",
+    "funLeave_3": "",
+    "funReturn_0": "",
+    "funReturn_1": "",
+    "funReturn_2": "",
+    "funReturn_3": "",
+    "Outdoor_0": "",
+    "Outdoor_1": "",
+    "Outdoor_2": "",
+    "Outdoor_3": "",
+    "Outdoor_4": "",
+    "spouseRoom_0": "",
+    "spouseRoom_1": "",
+    "spouseRoom_2": "",
+    "spouseRoom_3": "",
+    "OneKid_0": "",
+    "OneKid_1": "",
+    "OneKid_2": "",
+    "OneKid_3": "",
+    "OneKid_4": "",
+    "TwoKids_0": "",
+    "TwoKids_1": "",
+    "TwoKids_2": "",
+    "TwoKids_3": "",
+    "TwoKids_4": "",
+    "Good_0": "",
+    "Good_1": "",
+    "Good_2": "",
+    "Good_3": "",
+    "Good_4": "",
+    "Good_5": "",
+    "Good_6": "",
+    "Good_7": "",
+    "Good_8": "",
+    "Good_9": "",
+    "Neutral_0": "",
+    "Neutral_1": "",
+    "Neutral_2": "",
+    "Neutral_3": "",
+    "Neutral_4": "",
+    "Neutral_5": "",
+    "Neutral_6": "",
+    "Neutral_7": "",
+    "Neutral_8": "",
+    "Neutral_9": "",
+    "Bad_0": "",
+    "Bad_1": "",
+    "Bad_2": "",
+    "Bad_3": "",
+    "Bad_4": "",
+    "Bad_5": "",
+    "Bad_6": "",
+    "Bad_7": "",
+    "Bad_8": "",
+    "Bad_9": "",
+
+    ////////////////////////////////////////////////////////////////////
+    //house flavor text
+    "26053Books_0": "", //35
+    "26053Books_1": "", //35
+    "26053Books_2": "", //35
+    "26053Books_3": "", //35
+    "26053Books_4": "", //35
+    "26053Books_5": "", //35
+    "26053Books_6": "", //35
+    "26053Books_7": "", //35
+    "26053Books_8": "", //35
+    "26053Books_9": "", //35
+    "26053Books_10": "", //35
+    "26053Books_11": "", //35
+    "26053Books_12": "", //35
+    "26053Books_13": "", //35
+    "26053Books_14": "", //35
+    "26053Books_15": "", //35
+    "26053Books_16": "", //35
+    "26053Books_17": "", //35
+    "26053Books_18": "", //35
+    "26053Books_19": "", //35
+    "26053Books_20": "", //35
+    "26053Books_21": "", //35
+    "26053Books_22": "", //35
+    "26053Books_23": "", //35
+    "26053Books_24": "", //35
+    "26053Books_25": "", //35
+    "26053Books_26": "", //35
+    "26053Books_27": "", //35
+    "26053Books_28": "", //35
+    "26053Books_29": "", //35
+    "26053Books_30": "", //35
+    "26053Books_31": "", //35
+    "26053Books_32": "", //35
+    "26053Books_33": "", //35
+    "26053Books_34": "", //35
+    "26053Books_35": "", //35
+    "26053Kitchen_0": "", //15
+    "26053Kitchen_1": "", //15
+    "26053Kitchen_2": "", //15
+    "26053Kitchen_3": "", //15
+    "26053Kitchen_4": "", //15
+    "26053Kitchen_5": "", //15
+    "26053Kitchen_6": "", //15
+    "26053Kitchen_7": "", //15
+    "26053Kitchen_8": "", //15
+    "26053Kitchen_9": "", //15
+    "26053Kitchen_10": "", //15
+    "26053Kitchen_11": "", //15
+    "26053Kitchen_12": "", //15
+    "26053Kitchen_13": "", //15
+    "26053Kitchen_14": "", //15
+    "26053Kitchen_15": "", //15
+    "26053TV_0": "", //5
+    "26053TV_1": "", //5
+    "26053TV_2": "", //5
+    "26053TV_3": "", //5
+    "26053TV_4": "", //5
+    "26053TV_5": "", //5
+    //nonrandomized
+    "EdelweissCoat": "",
+    "EdelHouse.1": "", //bottle shelf
+    "EdelHouse.2": "", //kitchen dresser
+    "EdelHouse.3": "", //apothecary table
+    "EdelHouse.4": "", //apothecary table
+    "EdelHouse.5": "", //anvil
+    "EdelHouse.6": "", //anvil
+    "EdelHouse.7": "", //apothecary table
+    "EdelHouse.8": "", //apothecary table
+    "EdelHouse.9": "", //apothecary table
+    "EdelHouse.10": "", //magic circle
+    "EdelHouse.11": "", //furnace
+    "EdelHouse.12": "", //fireplace
+    "EdelHouse.13": "", //axe
+    "EdelHouse.14": "", //kitchen plant
+    "EdelHouse.15": "", //fridge
+    "EdelHouse.16": "", //stove
+    "EdelHouse.18": "", //computertower
+    "EdelHouse.19": "", //radio
+    "EdelHouse.20": "", //radio
+    "EdelHouse.21": "", //nighstand
+    "EdelHouse.22": "", //floorpc
+    "EdelHouse.23": "", //laptop
+    "EdelHouse.24": "", //radiotable
+    "EdelHouse.25": "", //lilradio
+    "EdelHouse.26": "", //junimohut
+    "EdelGoat": "", //attic goat
+    "EdelBear": "", //attic bear
+    "EdelJewel": "", //attic jewel
+    "EdelJunimo": "", //attic junimo
+    ////////////////////////////////////////////////////////////////////
+    //strings
+
+    //engaged
+    "Edelengaged_0": "", //5
+    "Edelaftermarry_0": "", //5
+    "Edelaftermarry_1": "", //5
+    "Edelaftermarry_2": "", //5
+    "Edelaftermarry_3": "", //5
+    "Edelaftermarry_4": "", //5
+    "Edelaftermarry_5": "", //5
+
+    //welwick
+    "Welwick.Base": "",
+    "Welwick.Money": "",
+    "Welwick.Prediction.1": "",
+    "Welwick.Prediction.2": "",
+    "Welwick.Prediction.3": "",
+    "Welwick.Prediction.4": "",
+    "Welwick.Prediction.5": "",
+    "Welwick.End": "",
+
+    //movie invite??
+    "MovieInvite_Invited_EdelweissSeung": "",
+
+    //children
+    "NewBaby.Question": "",
+    "NewAdopt.Question": "",
+    "AdoptMessage.Player": "",
+    "BirthMessage.Player": "",
+    "BabyNaming.Male": "",
+    "BabyNaming.Female": "",
+
+    ////////////////////////////////////////////////////////////////////
+    //mail
+    "EdelweissWarpMail": "I hope this letter finds you well,^^I am to be Rasmodius' apprentice tomorrow.^^I am sending this letter to the one who has unlocked the Skull Caverns.^^You may find my tower through this item. %item object Aviroen.Edelweiss_WarpTotem 2 %%[#]Edelweiss' Tower"
+
+    ////////////////////////////////////////////////////////////////////
+    //child events
+
+    //dates
+
+}

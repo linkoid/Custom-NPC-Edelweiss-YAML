@@ -1,0 +1,33 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Edel's' Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/EdelweissSeung",
+            "Entries": {
+                "spring": "610 {{ModId}}_EdelHouse 18 4 edel_sleepyleft \"Strings\\schedules\\EdelweissSeung:Spring_Sleepy.1\"/900 {{ModId}}_EdelHouse 19 17 0 \"Strings\\schedules\\EdelweissSeung:Spring_Sleepy.2\"/1200 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Spring_Hammer.1\"/1500 {{ModId}}_EdelHouse 26 19 edel_alchemy \"Strings\\schedules\\EdelweissSeung:Spring_Alchemy.1\"/1800 {{ModId}}_EdelHouse 5 5 edel_read \"Strings\\schedules\\EdelweissSeung:Spring_Reading.1\"/2100 {{ModId}}_EdelHouse 7 15 1 \"Strings\\schedules\\EdelweissSeung:Spring_Reading.2\"/2400 {{ModId}}_EdelHouse 18 4 edel_sleepyright \"Strings\\schedules\\EdelweissSeung:Spring_Sleepy.3\"/2600 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "summer": "610 {{ModId}}_EdelHouse 18 4 edel_sleepyleft \"Strings\\schedules\\EdelweissSeung:Summer_Sleepy.1\"/1200 {{ModId}}_EdelHouse 19 17 0 \"Strings\\schedules\\EdelweissSeung:Summer_Sleepy.2\"/1400 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Summer_Hammer.1\"/1500 {{ModId}}_EdelHouse 26 19 edel_alchemy \"Strings\\schedules\\EdelweissSeung:Summer_Alchemy.1\"/1800 {{ModId}}_EdelHouse 5 5 edel_read \"Strings\\schedules\\EdelweissSeung:Summer_Reading.1\"/2000 {{ModId}}_EdelHouse 7 15 1 \"Strings\\schedules\\EdelweissSeung:Summer_Reading.2\"/2200 {{ModId}}_EdelHouse 18 4 edel_sleepyright \"Strings\\schedules\\EdelweissSeung:Summer_Sleepy.3\"/2300 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "fall": "610 {{ModId}}_EdelHouse 18 4 edel_sleepyleft \"Strings\\schedules\\EdelweissSeung:Fall_Sleepy.1\"/1000 {{ModId}}_EdelHouse 19 17 0 \"Strings\\schedules\\EdelweissSeung:Fall_Sleepy.2\"/1100 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Fall_Hammer.1\"/1500 {{ModId}}_EdelHouse 26 19 edel_alchemy \"Strings\\schedules\\EdelweissSeung:Fall_Alchemy.1\"/1800 {{ModId}}_EdelHouse 5 5 edel_read \"Strings\\schedules\\EdelweissSeung:Fall_Reading.1\"/2000 {{ModId}}_EdelHouse 7 15 1 \"Strings\\schedules\\EdelweissSeung:Fall_Reading.2\"/2400 {{ModId}}_EdelHouse 18 4 edel_sleepyright \"Strings\\schedules\\EdelweissSeung:Fall_Sleepy.3\"/2600 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "winter": "610 {{ModId}}_EdelHouse 18 4 edel_sleepyleft \"Strings\\schedules\\EdelweissSeung:Winter_Sleepy.1\"/700 {{ModId}}_EdelHouse 19 17 0 \"Strings\\schedules\\EdelweissSeung:Winter_Sleepy.2\"/900 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Winter_Hammer.1\"/1200 {{ModId}}_EdelHouse 26 19 edel_alchemy \"Strings\\schedules\\EdelweissSeung:Winter_Alchemy.1\"/1500 {{ModId}}_EdelHouse 5 5 edel_read \"Strings\\schedules\\EdelweissSeung:Winter_Reading.1\"/2000 {{ModId}}_EdelHouse 7 15 1 \"Strings\\schedules\\EdelweissSeung:Winter_Reading.2\"/2400 {{ModId}}_EdelHouse 18 4 edel_sleepyright \"Strings\\schedules\\EdelweissSeung:Winter_Sleepy.3\"/2600 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "rain": "610 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Rain_1\"/1800 {{ModId}}_EdelHouse 5 5 0 \"Strings\\schedules\\EdelweissSeung:Rain_2\"/2200 {{ModId}}_EdelArtificialBeach 5 16 3 \"Strings\\schedules\\EdelweissSeung:Rain_3\"/2600 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "rain2": "610 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Rain_4\"/2000 {{ModId}}_EdelHouse 5 5 0 \"Strings\\schedules\\EdelweissSeung:Rain_5\"/2300 {{ModId}}_EdelArtificialBeach 5 16 3 \"Strings\\schedules\\EdelweissSeung:Rain_6\"/2600 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "Mon": "",
+                "Tue": "",
+                "Wed": "",
+                "Thu": "",
+                "Fri": "",
+                "Sat": "",
+                "Sun": "",
+                "fall_18": "610 {{ModId}}_EdelArtificialBeach 28 14 edel_meditate \"Strings\\schedules\\EdelweissSeung:Fall_18.Meditate\"/1800 {{ModId}}_EdelHouse 18 17 0 \"Strings\\schedules\\EdelweissSeung:Fall_18.Kitchen\"/2000 {{ModId}}_EdelHouse 20 3 edel_sleep",
+                "marriage_Mon": "1200 {{ModId}}_EdelHouse 28 22 edel_hammer \"Strings\\schedules\\EdelweissSeung:Married.Hammer\"/2600 bed",
+                "marriage_Tue": "1200 {{ModId}}_EdelHouse 26 19 edel_alchemy \"Strings\\schedules\\EdelweissSeung:Married.Alchemy\"/2600 bed",
+                "marriage_Wed": "1200 {{ModId}}_EdelHouse 5 5 edel_read \"Strings\\schedules\\EdelweissSeung:Married.Read\"/2600 bed",
+                "marriage_Thu": "",
+                "marriage_Fri": "",
+                "marriage_Sat": "",
+                "marriage_Sun": ""
+            }
+        }
+    ]
+}

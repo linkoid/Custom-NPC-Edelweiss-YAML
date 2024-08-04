@@ -1,0 +1,128 @@
+{
+    ///////////////////////////////////////////////////////custom locations
+    "Changes": [
+        {
+            "LogName": "Edel's maps",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_EdelArtificialBeach": {
+                    "DisplayName": "Artificial Island",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 28
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_EdelweissBeach",
+                        "AlwaysActive": false
+                    },
+                    "Fish": [
+                        {
+                            "Id": "Pufferfish",
+                            "ItemID": "(O)128",
+                            "Chance": 0.05,
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        },
+                        {
+                            "Id": "Blobfish",
+                            "ItemID": "(O)800",
+                            "Chance": 0.03,
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        },
+                        {
+                            "Id": "Tilapia",
+                            "ItemID": "(O)701",
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        }
+                    ],
+                    "MusicDefault": "Overcast"
+                },
+                "{{ModId}}_EdelHouse": {
+                    "DisplayName": "Edelweiss' Tower",
+                    "DefaultArrivalTile": {
+                        "X": 5,
+                        "Y": 23
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_EdelweissHouse",
+                        "AlwaysActive": false
+                    },
+                    "MusicDefault": "Of Dwarves"
+                },
+                "{{ModId}}_EdelAttic": {
+                    "DisplayName": "Edelweiss' Attic",
+                    "DefaultArrivalTile": {
+                        "X": 2,
+                        "Y": 8
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_EdelweissAttic",
+                        "AlwaysActive": false
+                    },
+                    "MusicDefault": "Plums"
+                },
+                "{{ModId}}_EdelBasement": {
+                    "DisplayName": "Edelweiss' Basement",
+                    "DefaultArrivalTile": {
+                        "X": 18,
+                        "Y": 4
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_EdelweissBasement",
+                        "AlwaysActive": false
+                    },
+                    "MusicDefault": "Plums"
+                }
+            }
+        },
+        { //load edel's house
+            "LogName": "Load Edel's Room",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/Custom_EdelweissHouse",
+            "FromFile": "assets/Maps/EdelHouse.tmx"
+        },
+        { //load edel's house
+            "LogName": "Load Edel's Room",
+            "Action": "EditMap",
+            "When": { "HasFlag": "Edel10Heart" },
+            "Target": "Maps/Custom_EdelweissHouse",
+            "FromFile": "assets/Maps/EdelHouseClean.tmx"
+        },
+        { //load edel's attic
+            "LogName": "Load Edel's Attic",
+            "Action": "Load",
+            "Target": "Maps/Custom_EdelweissAttic",
+            "FromFile": "assets/Maps/EdelAttic.tmx"
+        },
+        { //load edel's basement
+            "LogName": "Load Edel's Basement",
+            "Action": "Load",
+            "Target": "Maps/Custom_EdelweissBasement",
+            "FromFile": "assets/Maps/EdelBasement.tmx"
+        },
+        { //load the artificial beach
+            "LogName": "Load Artificial Beach",
+            "Action": "Load",
+            "Target": "Maps/Custom_EdelweissBeach",
+            "FromFile": "assets/Maps/EdelOut.tmx"
+        },
+        { //load spouse room
+            "Action": "Load",
+            "Target": "Maps/Custom_EdelSpouse",
+            "When": { "SpouseRoom": "Furnished" },
+            "FromFile": "assets/Maps/EdelSpouse.tmx"
+        },
+        { //load spouse room
+            "Action": "Load",
+            "Target": "Maps/Custom_EdelSpouse",
+            "When": { "SpouseRoom": "Unfurnished" },
+            "FromFile": "assets/Maps/EdelSpouseNoFurniture.tmx"
+        },
+        { //load spouse patio
+            "Action": "Load",
+            "Target": "Data/Custom_EdelPatio",
+            "FromFile": "assets/Maps/EdelPatio.tmx"
+        }
+    ]
+}

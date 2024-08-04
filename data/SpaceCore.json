@@ -1,0 +1,131 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_WarpTotem": {
+                    "Name": "Warp Totem: Artificial Beach",
+                    "DisplayName": "{{i18n:Edelweiss.Warp.Totem}}",
+                    "Description": "{{i18n:Edelweiss.Warp.Totem.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\Artificial Beach Totem",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": false,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "not_placeable",
+                        "totem_item"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Artificial Beach Totem",
+            "FromFile": "assets/Furniture/warptotem.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Artificial Beach Totem": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_WarpTotem": {
+                    "TotemWarp": {
+                        "Location": "Aviroen.Edelweiss_EdelArtificialBeach",
+                        "Position": "7, 28",
+                        "Color": {
+                            "R": 152,
+                            "G": 146,
+                            "B": 165,
+                            "A": 0
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+            "Entries": {
+                // This is an example based on Clint's clint_hammer animation.
+                "edel_hammer": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        9: {
+                            "Emote": null,
+                            "PlaySound": "hammer"
+                        }
+                    }
+                },
+                "edel_sleepyright": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        14: {
+                            "Emote": null,
+                            "PlaySound": "dwoop"
+                        }
+                    }
+                },
+                "edel_sleepyleft": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        14: {
+                            "Emote": null,
+                            "PlaySound": "dwoop"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "When": {
+                "Relationship:EdelweissSeung": "Married"
+            },
+            "Entries": {
+                "HaveBabyQuestion": "{{i18n:NewBaby.Question}}",
+                "HaveBabyQuestion_Adoption": "{{i18n:NewAdopt.Question}}",
+                "BirthMessage_Adoption": "{{i18n:AdoptMessage.Player}}",
+                "BirthMessage_PlayerMother": "{{i18n:BirthMessage.Player}}",
+                "BabyNamingTitle_Male": "{{i18n:BabyNaming.Male}}",
+                "BabyNamingTitle_Female": "{{i18n:BabyNaming.Female}}"
+            }
+        }
+        //create adoption/birth event addmail EdelAdopt
+    ]
+}
