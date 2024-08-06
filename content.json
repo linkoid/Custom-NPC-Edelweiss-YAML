@@ -96,7 +96,7 @@
         {
             "Logname": "EdelIncludes",
             "Action": "Include",
-            "FromFile": "data/animationDescriptions.json, data/ConcessionTastes.json, data/DeathInsurance.json, data/Dialogue.json, data/Edelweiss.json, data/Festivals.json, data/Gifts.json, data/HeartEvents.json, data/Locations.json, data/Mail.json, data/MarriageDialogue.json, data/Outfits.json, data/Schedule.json, data/ScheduleDialogue.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json"
+            "FromFile": "data/animationDescriptions.json, data/ConcessionTastes.json, data/DeathInsurance.json, data/Dialogue.json, data/Edelweiss.json, data/Festivals.json, data/Gifts.json, data/HeartEvents.json, data/Locations.json, data/Mail.json, data/MarriageDialogue.json, data/Outfits.json, data/Schedule.json, data/Shop.json, data/ScheduleDialogue.json, data/SpaceCore.json, data/StringsFromCSFiles.json, data/TriggerActions.json"
         }
     ]
 }

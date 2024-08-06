@@ -1,1 +1,242 @@
-{}
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": {
+                "HasFlag": "EdelweissWiped"
+            },
+            "Entries": {
+                //green rain
+                "GreenRain": "{{i18n:Wiped.GreenRain_{{Random:{{Range: 0, 3}}}}}}",
+                "GreenRainFinished": "{{i18n:Wiped.GreenRainFinished_{{Random:{{Range: 0, 3}}}}}}",
+                //movie
+                "MovieInvitation": "{{i18n:Wiped.MovieInvitation_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Wiped.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Wiped.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:Wiped.RejectMovieTicket_Divorced}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Wiped.RejectMovieTicket_DontWantToSeeThatMovie}}",
+                "RejectMovieTicket": "{{i18n:Wiped.RejectMovieTicket}}",
+                //dating
+                "breakUp": "{{i18n:Wiped.breakUp_{{Random:{{Range: 0, 3}}}}}}",
+                "dating_EdelweissSeung_memory_oneyear": "{{i18n:Wiped.Dating_1_Year_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectBouquet_NotDatable": "{{i18n:Wiped.RejectBouquet_NotDatable}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:Wiped.RejectBouquet_NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:Wiped.RejectBouquet_VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:Wiped.RejectBouquet_LowHearts}}",
+                "RejectBouquet": "{{i18n:Wiped.RejectBouquet}}",
+                //marriage
+                "SpouseFarmhouseClutter": "{{i18n:Wiped.SpouseFarmhouseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:Wiped.Spouse_MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:Wiped.SpouseStardrop}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Wiped.RejectMermaidPendant_NeedHouseUpgrade}}",
+                "RejectMermaidPendant_NotDatable": "{{i18n:Wiped.RejectMermaidPendant_NotDatable}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Wiped.RejectMermaidPendant_NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Wiped.RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:Wiped.RejectMermaidPendant_Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:Wiped.RejectMermaidPendant_Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Wiped.RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+                "RejectMermaidPendant": "{{i18n:Wiped.RejectMermaidPendant}}",
+                //divorced
+                "divorced": "{{i18n:Wiped.divorced_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelDivorced received",
+                "RejectGift_Divorced": "{{i18n:Wiped.RejectGift_Divorced}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:Wiped.RejectMermaidPendant_Divorced}}",
+                "RejectBouquet_Divorced": "{{i18n:Wiped.RejectBouquet_Divorced}}",
+                "WipedMemory": "{{i18n:Wiped.WipedMemory_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelWipe received",
+                //island
+                "Resort": "{{i18n:Wiped.Resort_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Bar": "{{i18n:Wiped.Resort_Bar_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Chair": "{{i18n:Wiped.Resort_Chair_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Dance": "{{i18n:Wiped.Resort_Dance_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Entering": "{{i18n:Wiped.Resort_Entering_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Leaving": "{{i18n:Wiped.Resort_Leaving_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Shore": "{{i18n:Wiped.Resort_Shore_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Towel": "{{i18n:Wiped.Resort_Towel_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Umbrella": "{{i18n:Wiped.Resort_Umbrella_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Wander": "{{i18n:Wiped.Resort_Wander_{{Random:{{Range: 0, 3}}}}}}",
+                //birthday
+                "AcceptBirthdayGift_Negative": "{{i18n:Wiped.AcceptBirthdayGift_Negative}}",
+                "AcceptBirthdayGift_Positive": "{{i18n:Wiped.AcceptBirthdayGift_Positive}}",
+                "AcceptBirthdayGift": "{{i18n:Wiped.AcceptBirthdayGift}}",
+                //dating proposal
+                "AcceptBouquet": "{{i18n:Wiped.AcceptBouquet}}",
+                //trashcan
+                "DumpsterDiveComment": "{{i18n:Wiped.DumpsterDiveComment}}",
+                //slingshot
+                "HitBySlingshot": "{{i18n:Wiped.HitBySlingshot}}",
+
+                ////////////////////////////////////////////////seasonals
+                //spring
+                "spring_Mon": "{{i18n:Wiped.spring_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Tue": "{{i18n:Wiped.spring_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Wed": "{{i18n:Wiped.spring_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Thu": "{{i18n:Wiped.spring_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Fri": "{{i18n:Wiped.spring_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sat": "{{i18n:Wiped.spring_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sun": "{{i18n:Wiped.spring_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //flower festival
+                "FlowerDance_Accept_Spouse": "{{i18n:Wiped.FlowerDance_Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:Wiped.FlowerDance_Accept}}",
+                "FlowerDance_Decline": "{{i18n:Wiped.FlowerDance_Decline}}",
+                //summer
+                "summer_Mon": "{{i18n:Wiped.summer_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Tue": "{{i18n:Wiped.summer_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Wed": "{{i18n:Wiped.summer_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Thu": "{{i18n:Wiped.summer_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Fri": "{{i18n:Wiped.summer_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sat": "{{i18n:Wiped.summer_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sun": "{{i18n:Wiped.summer_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:Wiped.fall_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Tue": "{{i18n:Wiped.fall_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Wed": "{{i18n:Wiped.fall_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Thu": "{{i18n:Wiped.fall_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Fri": "{{i18n:Wiped.fall_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sat": "{{i18n:Wiped.fall_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sun": "{{i18n:Wiped.fall_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fair
+                "Fair_Judging": "{{i18n:Wiped.Fair_Judging}}",
+                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Wiped.Fair_Judged_PlayerLost_PurpleShorts}}",
+                "Fair_Judged_PlayerLost_Skipped": "{{i18n:Wiped.Fair_Judged_PlayerLost_Skipped}}",
+                "Fair_Judged_PlayerLost": "{{i18n:Wiped.Fair_Judged_PlayerLost}}",
+                "Fair_Judged_PlayerWon": "{{i18n:Wiped.Fair_Judged_PlayerWon}}",
+                "Fair_Judged": "{{i18n:Wiped.Fair_Judged}}",
+                //winter
+                "winter_Mon": "{{i18n:Wiped.winter_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Tue": "{{i18n:Wiped.winter_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Wed": "{{i18n:Wiped.winter_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Thu": "{{i18n:Wiped.winter_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Fri": "{{i18n:Wiped.winter_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sat": "{{i18n:Wiped.winter_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sun": "{{i18n:Wiped.winter_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //winter star
+                "WinterStar_GiveGift_Before_Spouse": "{{i18n:Wiped.WinterStar_GiveGift_Before_Spouse}}",
+                "WinterStar_GiveGift_Before": "{{i18n:Wiped.WinterStar_GiveGift_Before}}",
+                "WinterStar_GiveGift_After_Spouse": "{{i18n:Wiped.WinterStar_GiveGift_After_Spouse}}",
+                "WinterStar_GiveGift_After": "{{i18n:Wiped.WinterStar_GiveGift_After}}",
+                "WinterStar_ReceiveGift": "{{i18n:Wiped.WinterStar_ReceiveGift}}",
+
+                //////////////////////////////////////////////////accept gifts
+                "AcceptGift_(O)96": "{{i18n:Wiped.AcceptGift_(O)96}}",
+                "AcceptGift_(O)97": "{{i18n:Wiped.AcceptGift_(O)97}}",
+                "AcceptGift_(O)98": "{{i18n:Wiped.AcceptGift_(O)98}}",
+                "AcceptGift_(O)99": "{{i18n:Wiped.AcceptGift_(O)99}}",
+                "AcceptGift_(O)104": "{{i18n:Wiped.AcceptGift_(O)104}}",
+                "AcceptGift_(O)109": "{{i18n:Wiped.AcceptGift_(O)109}}",
+                "AcceptGift_(O)114": "{{i18n:Wiped.AcceptGift_(O)114}}",
+                "AcceptGift_(O)121": "{{i18n:Wiped.AcceptGift_(O)121}}",
+                "AcceptGift_(O)122": "{{i18n:Wiped.AcceptGift_(O)122}}",
+                "AcceptGift_(O)124": "{{i18n:Wiped.AcceptGift_(O)124}}",
+                "AcceptGift_(O)125": "{{i18n:Wiped.AcceptGift_(O)125}}",
+                "AcceptGift_(O)MysticTreeSeed": "{{i18n:Wiped.AcceptGift_(O)MysticTreeSeed}}",
+                "AcceptGift_(O)MysticSyrup": "{{i18n:Wiped.AcceptGift_(O)MysticSyrup}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Wiped.AcceptGift_(O)StardropTea}}",
+                "AcceptGift_(O)PurpleBook": "{{i18n:Wiped.AcceptGift_(O)PurpleBook}}",
+                "AcceptGift_(O)SkillBook_0": "{{i18n:Wiped.AcceptGift_(O)SkillBook_0}}",
+                "AcceptGift_(O)SkillBook_1": "{{i18n:Wiped.AcceptGift_(O)SkillBook_1}}",
+                "AcceptGift_(O)SkullBook_2": "{{i18n:Wiped.AcceptGift_(O)SkullBook_2}}",
+                "AcceptGift_(O)SkullBook_3": "{{i18n:Wiped.AcceptGift_(O)SkullBook_3}}",
+                "AcceptGift_(O)SkullBook_4": "{{i18n:Wiped.AcceptGift_(O)SkullBook_4}}",
+                "AcceptGift_(O)Book_Trash": "{{i18n:Wiped.AcceptGift_(O)Book_Trash}}",
+                "AcceptGift_(O)Book_Crabbing": "{{i18n:Wiped.AcceptGift_(O)Book_Crabbing}}",
+                "AcceptGift_(O)Boob_Bombs": "{{i18n:Wiped.AcceptGift_(O)Boob_Bombs}}",
+                "AcceptGift_(O)Book_Roe": "{{i18n:Wiped.AcceptGift_(O)Book_Roe}}",
+                "AcceptGift_(O)Book_WildSeeds": "{{i18n:Wiped.AcceptGift_(O)Book_WildSeeds}}",
+                "AcceptGift_(O)Book_Woodcutting": "{{i18n:Wiped.AcceptGift_(O)Book_Woodcutting}}",
+                "AcceptGift_(O)Book_Defense": "{{i18n:Wiped.AcceptGift_(O)Book_Defense}}",
+                "AcceptGift_(O)Book_Friendship": "{{i18n:Wiped.AcceptGift_(O)Book_Friendship}}",
+                "AcceptGift_(O)Book_Void": "{{i18n:Wiped.AcceptGift_(O)Book_Void}}",
+                "AcceptGift_(O)Book_Speed": "{{i18n:Wiped.AcceptGift_(O)Book_Speed}}",
+                "AcceptGift_(O)Book_Marlon": "{{i18n:Wiped.AcceptGift_(O)Book_Marlon}}",
+                "AcceptGift_(O)Book_PriceCatalogue": "{{i18n:Wiped.AcceptGift_(O)Book_PriceCatalogue}}",
+                "AcceptGift_(O)Book_QueenOfSauce": "{{i18n:Wiped.AcceptGift_(O)Book_QueenOfSauce}}",
+                "AcceptGift_(O)Book_Diamonds": "{{i18n:Wiped.AcceptGift_(O)Book_Diamonds}}",
+                "AcceptGift_(O)Book_Mystery": "{{i18n:Wiped.AcceptGift_(O)Book_Mystery}}",
+                "AcceptGift_(O)Book_AnimalCatalogue": "{{i18n:Wiped.AcceptGift_(O)Book_AnimalCatalogue}}",
+                "AcceptGift_(O)Book_Speed2": "{{i18n:Wiped.AcceptGift_(O)Book_Speed2}}",
+                "AcceptGift_(O)Book_Artifact": "{{i18n:Wiped.AcceptGift_(O)Book_Artifact}}",
+                "AcceptGift_(O)Book_Horse": "{{i18n:Wiped.AcceptGift_(O)Book_Horse}}",
+                "AcceptGift_(O)Book_Grass": "{{i18n:Wiped.AcceptGift_(O)Book_Grass}}",
+                //////////////////////////////////////////////////reject gifts
+                "RejectGift_(O)FarAwayStone": "{{i18n:Wiped.RejectGift_(O)FarAwayStone}}",
+                "RejectGift_(O)CalicoEgg": "{{i18n:Wiped.RejectGift_(O)CalicoEgg}}",
+                "RejectGift_(O)MixedFlowerSeeds": "{{i18n:Wiped.RejectGift_(O)MixedFlowerSeeds}}",
+                "RejectGift_(O)GoldenBobber": "{{i18n:Wiped.RejectGift_(O)GoldenBobber}}",
+                "RejectGift_(O)DeluxeBait": "{{i18n:Wiped.RejectGift_(O)DeluxeBait}}",
+                "RejectGift_(O)Moss": "{{i18n:Wiped.RejectGift_(O)Moss}}",
+                "RejectGift_(O)MossySeed": "{{i18n:Wiped.RejectGift_(O)MossySeed}}",
+                "RejectGift_(O)SonarBobber": "{{i18n:Wiped.RejectGift_(O)SonarBobber}}",
+                "RejectGift_(O)SpecificBait": "{{i18n:Wiped.RejectGift_(O)SpecificBait}}",
+                "RejectGift_(O)Raisins": "{{i18n:Wiped.RejectGift_(O)Raisins}}",
+                "RejectGift_(O)DriedFruit": "{{i18n:Wiped.RejectGift_(O)DriedFruit}}",
+                "RejectGift_(O)DriedMushrooms": "{{i18n:Wiped.RejectGift_(O)DriedMushrooms}}",
+                "RejectGift_(O)PrizeTicket": "{{i18n:Wiped.RejectGift_(O)PrizeTicket}}",
+                "RejectGift_(O)TreasureTotem": "{{i18n:Wiped.RejectGift_(O)TreasureTotem}}",
+                "RejectGift_(O)ChallengeBait": "{{i18n:Wiped.RejectGift_(O)ChallengeBait}}",
+                "RejectGift_(O)CarrotSeeds": "{{i18n:Wiped.RejectGift_(O)CarrotSeeds}}",
+                "RejectGift_(O)Carrot": "{{i18n:Wiped.RejectGift_(O)Carrot}}",
+                "RejectGift_(O)SummerSquashSeeds": "{{i18n:Wiped.RejectGift_(O)SummerSquashSeeds}}",
+                "RejectGift_(O)SummerSquash": "{{i18n:Wiped.RejectGift_(O)SummerSquash}}",
+                "RejectGift_(O)BroccoliSeeds": "{{i18n:Wiped.RejectGift_(O)BroccoliSeeds}}",
+                "RejectGift_(O)Broccoli": "{{i18n:Wiped.RejectGift_(O)Broccoli}}",
+                "RejectGift_(O)PowdermelonSeeds": "{{i18n:Wiped.RejectGift_(O)PowdermelonSeeds}}",
+                "RejectGift_(O)Powdermelon": "{{i18n:Wiped.RejectGift_(O)Powdermelon}}",
+                "RejectGift_(O)SmokedFish": "{{i18n:Wiped.RejectGift_(O)SmokedFish}}",
+                "RejectGift_(O)GoldenAnimalCracker": "{{i18n:Wiped.RejectGift_(O)GoldenAnimalCracker}}",
+                "RejectGift_(O)GoldenMysteryBox": "{{i18n:Wiped.RejectGift_(O)GoldenMysteryBox}}",
+                "RejectGift_(O)SeaJelly": "{{i18n:Wiped.RejectGift_(O)SeaJelly}}",
+                "RejectGift_(O)CaveJelly": "{{i18n:Wiped.RejectGift_(O)CaveJelly}}",
+                "RejectGift_(O)RiverJelly": "{{i18n:Wiped.RejectGift_(O)RiverJelly}}",
+                "RejectGift_(O)ButterflyPowder": "{{i18n:Wiped.RejectGift_(O)ButterflyPowder}}",
+                "RejectGift_(O)MossSoup": "{{i18n:Wiped.RejectGift_(O)MossSoup}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "Relationship:Edelweiss": "Married" },
+            "Entries": {
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.MCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:Wiped.M{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:Wiped.M{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:Wiped.M{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectGift_(O)277": "{{i18n:Wiped.MRejectGift_(O)277}}",
+                "RejectGift_(O)458": "{{i18n:Wiped.MRejectGift_(O)458}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "HavingChild": "@{{playerName}}" },
+            "Entries": {
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PFCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:Wiped.PF{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:Wiped.PF{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:Wiped.PF{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectGift_(O)277": "{{i18n:Wiped.PFRejectGift_(O)277}}",
+                "RejectGift_(O)458": "{{i18n:Wiped.PFRejectGift_(O)458}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "HavingChild": "EdelweissSeung" },
+            "Entries": {
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PECustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:Wiped.PE{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:Wiped.PE{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:Wiped.PE{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectGift_(O)277": "{{i18n:Wiped.PERejectGift_(O)277}}",
+                "RejectGift_(O)458": "{{i18n:Wiped.PERejectGift_(O)458}}"
+            }
+        },
+        {
+            "LogName": "Summit Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_EdelweissSeung": "{{i18n:Wiped.SummitEvent}}"
+            }
+        }
+    ]
+}

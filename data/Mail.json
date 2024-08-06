@@ -5,7 +5,9 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "EdelweissWarp": "{{i18n:EdelweissWarpMail}}"
+                "EdelweissWarp": "{{i18n:EdelweissWarpMail}}%item object Aviroen.Edelweiss_WarpTotem 2 %%[#]{{i18n:EdelweissWarpTitle}}",
+                "EdelMarried": "{{i18n:EdelweissMarriage}}[#]{{i18n:EdelweissMarriageTitle}}",
+                "EdelweissSeung_PassOut": "{{i18n:EdelweissSeung_PassOut}}"
             }
         }
     ]

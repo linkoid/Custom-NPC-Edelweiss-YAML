@@ -11,7 +11,7 @@
                     "Type": "Crafting",
                     "Category": 0,
                     "Price": 20,
-                    "Texture": "Mods\\{{ModId}}\\Artificial Beach Totem",
+                    "Texture": "Mods\\{{ModId}}\\{{ModId}}_WarpTotem",
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,
@@ -35,14 +35,14 @@
         },
         {
             "Action": "Load",
-            "Target": "Mods/{{ModId}}/Artificial Beach Totem",
+            "Target": "Mods/{{ModId}}/{{ModId}}_WarpTotem",
             "FromFile": "assets/Furniture/warptotem.png"
         },
         {
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Artificial Beach Totem": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
+                "Warp Totem: Artificial Beach": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
             }
         },
         {
@@ -127,5 +127,8 @@
                 }
             }
         }
+/*
+    So just `$action spacechase0.SpaceCore_PlayEvent myeventid` in your dialogue (though where you put it I don't know, I haven't done it before)
+    */
     ]
 }

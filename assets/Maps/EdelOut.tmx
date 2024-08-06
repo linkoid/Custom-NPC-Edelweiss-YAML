@@ -3134,7 +3134,7 @@
   </object>
   <object id="10" name="TileData" x="128" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 8 23 WizardHouse"/>
+    <property name="Action" value="OpenShop Aviroen.Edelweiss_ShadyArtificialShack"/>
    </properties>
   </object>
  </objectgroup>

@@ -9,7 +9,7 @@
                     "BirthSeason": "Fall",
                     "BirthDay": 3,
                     "HomeRegion": "Other", //town / desert / other
-                    "Language": "Dwarvish", //default or dwarvish
+                    "Language": "Default", //default or dwarvish
                     "Gender": "Undefined", //male, female, undefined (undefined gets auto-sorted as female)
                     "Age": "Adult", //child, teen, adult changes reactions from stringsfromcsfiles
                     "Manner": "Rude", //polite, neutral, rude changes stringsfromcsfiles
@@ -137,13 +137,13 @@
                     "ShakePortraits": [ 15 ], //the index of the portraits/npc to shake during dialogue, will always trigger
                     "KissSpriteIndex": 39, //whether this npc has a kissing or hugging sprite, reminder that characters/npc and portraits/npc starts at 0
                     "KissSpriteFacingRight": false, //whether the sprite is facing to the right
-                    "HiddenProfileEmoteSound": "newRecipe", //https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit?gid=239695361#gid=239695361 for soundbank / hiddenprofile when clicking on their social tab after 4 hearts shows a different animation if changed
+                    "HiddenProfileEmoteSound": "newRecipe", /* https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit?gid=239695361#gid=239695361 for soundbank / hiddenprofile when clicking on their social tab after 4 hearts shows a different animation if changed */
                     "HiddenProfileEmoteDuration": 4000, //how long the animation will run in miliseconds
                     "HiddenProfileEmoteStartFrame": 32, //whichever sprite index the frame is on
-                    "HiddenProfileEmoteFrameCount": 2,  //how many frames the sprite index will go through, going left to right
-                    "HiddenProfileEmoteFrameDuration": 200.0,   //how long each frame will last measured in miliseconds
+                    "HiddenProfileEmoteFrameCount": 2, //how many frames the sprite index will go through, going left to right
+                    "HiddenProfileEmoteFrameDuration": 200.0, //how long each frame will last measured in miliseconds
                     "FormerCharacterNames": [], //used for older saves if the npc has changed names and must be globally unique
-                    "CustomFields": null    //custom fields is used for c# implementation
+                    "CustomFields": null //custom fields is used for c# implementation
                 }
             }
         },

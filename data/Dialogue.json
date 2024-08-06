@@ -4,11 +4,43 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
             "Entries": {
-                "danceRejection": "{{i18n:danceRejection_{{Random:{{Range: 0, 3}}}}}}",
+                //green rain
+                "GreenRain": "{{i18n:GreenRain_{{Random:{{Range: 0, 3}}}}}}",
+                "GreenRainFinished": "{{i18n:GreenRainFinished_{{Random:{{Range: 0, 3}}}}}}",
+                //movie
                 "MovieInvitation": "{{i18n:MovieInvitation_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie}}",
+                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
+                //dating
                 "breakUp": "{{i18n:breakUp_{{Random:{{Range: 0, 3}}}}}}",
                 "dating_EdelweissSeung_memory_oneyear": "{{i18n:Dating_1_Year_{{Random:{{Range: 0, 3}}}}}}",
-                "divorced": "{{i18n:divorced_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelDivorced all",
+                "RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
+                "RejectBouquet": "{{i18n:RejectBouquet}}",
+                //marriage
+                "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:SpouseStardrop}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade}}",
+                "RejectMermaidPendant_NotDatable": "{{i18n:RejectMermaidPendant_NotDatable}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+                "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
+                //divorced
+                "divorced": "{{i18n:divorced_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelDivorced received",
+                "RejectGift_Divorced": "{{i18n:RejectGift_Divorced}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:RejectMermaidPendant_Divorced}}",
+                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}",
+                "WipedMemory": "{{i18n:WipedMemory_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelWipe received",
+                //island
                 "Resort": "{{i18n:Resort_{{Random:{{Range: 0, 3}}}}}}",
                 "Resort_Bar": "{{i18n:Resort_Bar_{{Random:{{Range: 0, 3}}}}}}",
                 "Resort_Chair": "{{i18n:Resort_Chair_{{Random:{{Range: 0, 3}}}}}}",
@@ -19,52 +51,69 @@
                 "Resort_Towel": "{{i18n:Resort_Towel_{{Random:{{Range: 0, 3}}}}}}",
                 "Resort_Umbrella": "{{i18n:Resort_Umbrella_{{Random:{{Range: 0, 3}}}}}}",
                 "Resort_Wander": "{{i18n:Resort_Wander_{{Random:{{Range: 0, 3}}}}}}",
+                //birthday
                 "AcceptBirthdayGift_Negative": "{{i18n:AcceptBirthdayGift_Negative}}",
                 "AcceptBirthdayGift_Positive": "{{i18n:AcceptBirthdayGift_Positive}}",
                 "AcceptBirthdayGift": "{{i18n:AcceptBirthdayGift}}",
+                //dating proposal
                 "AcceptBouquet": "{{i18n:AcceptBouquet}}",
+                //trashcan
                 "DumpsterDiveComment": "{{i18n:DumpsterDiveComment}}",
+                //slingshot
                 "HitBySlingshot": "{{i18n:HitBySlingshot}}",
-                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}",
-                "RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable}}",
-                "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
-                "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
-                "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
-                "RejectBouquet": "{{i18n:RejectBouquet}}",
-                "RejectGift_Divorced": "{{i18n:RejectGift_Divorced}}",
-                "RejectMermaidPendant_Divorced": "{{i18n:RejectMermaidPendant_Divorced}}",
-                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade}}",
-                "RejectMermaidPendant_NotDatable": "{{i18n:RejectMermaidPendant_NotDatable}}",
-                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse}}",
-                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
-                "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
-                "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}",
-                "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
-                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
-                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek}}",
-                "RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced}}",
-                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie}}",
-                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
-                "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
-                "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
-                "SpouseStardrop": "{{i18n:SpouseStardrop}}",
+
+                ////////////////////////////////////////////////seasonals
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //flower festival
+                "FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:FlowerDance_Accept}}",
+                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fair
                 "Fair_Judging": "{{i18n:Fair_Judging}}",
                 "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts}}",
                 "Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped}}",
                 "Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost}}",
                 "Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon}}",
                 "Fair_Judged": "{{i18n:Fair_Judged}}",
-                "FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse}}",
-                "FlowerDance_Accept": "{{i18n:FlowerDance_Accept}}",
-                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //winter star
                 "WinterStar_GiveGift_Before_Spouse": "{{i18n:WinterStar_GiveGift_Before_Spouse}}",
                 "WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before}}",
                 "WinterStar_GiveGift_After_Spouse": "{{i18n:WinterStar_GiveGift_After_Spouse}}",
                 "WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After}}",
                 "WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift}}",
-                "WipedMemory": "{{i18n:WipedMemory_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelWipe all",
-                //accept gifts
+
+                //////////////////////////////////////////////////accept gifts
                 "AcceptGift_(O)96": "{{i18n:AcceptGift_(O)96}}",
                 "AcceptGift_(O)97": "{{i18n:AcceptGift_(O)97}}",
                 "AcceptGift_(O)98": "{{i18n:AcceptGift_(O)98}}",
@@ -105,7 +154,7 @@
                 "AcceptGift_(O)Book_Artifact": "{{i18n:AcceptGift_(O)Book_Artifact}}",
                 "AcceptGift_(O)Book_Horse": "{{i18n:AcceptGift_(O)Book_Horse}}",
                 "AcceptGift_(O)Book_Grass": "{{i18n:AcceptGift_(O)Book_Grass}}",
-                //reject gifts
+                //////////////////////////////////////////////////reject gifts
                 "RejectGift_(O)FarAwayStone": "{{i18n:RejectGift_(O)FarAwayStone}}",
                 "RejectGift_(O)CalicoEgg": "{{i18n:RejectGift_(O)CalicoEgg}}",
                 "RejectGift_(O)MixedFlowerSeeds": "{{i18n:RejectGift_(O)MixedFlowerSeeds}}",
@@ -142,23 +191,196 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
-            "When": { "Relationship:Edelweiss": "Friendly" },
+            "When": { "Hearts:EdelweissSeung": "{{Range:2,4}}" },
             "Entries": {
-                "Custom_EdelweissBeach": "{{i18n:FCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissHouse": "{{i18n:FCustom_EdelweissHouse_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissAttic": "{{i18n:FCustom_EdelweissAttic_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissBasement": "{{i18n:FCustom_EdelweissBasement_{{Random:{{Range: 0, 3}}}}}}"
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 4, 6}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 4, 6}}}}}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 4, 6}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 4, 6}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 4, 6}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 4, 6}}}}}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 4, 6}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 4, 6}}}}}}"
             }
         },
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
-            "When": { "Relationship:Edelweiss": "Dating" },
+            "When": { "Hearts:EdelweissSeung": "{{Range:5,8}}" },
             "Entries": {
-                "Custom_EdelweissBeach": "{{i18n:DCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissHouse": "{{i18n:DCustom_EdelweissHouse_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissAttic": "{{i18n:DCustom_EdelweissAttic_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissBasement": "{{i18n:DCustom_EdelweissBasement_{{Random:{{Range: 0, 3}}}}}}"
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 7, 9}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 7, 9}}}}}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 7, 9}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 7, 9}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 7, 9}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 7, 9}}}}}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 7, 9}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 7, 9}}}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "Hearts:EdelweissSeung": "{{Range:8,10}}" },
+            "Entries": {
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 10, 12}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 10, 12}}}}}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 10, 12}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 10, 12}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 10, 12}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 10, 12}}}}}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 10, 12}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 10, 12}}}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "Hearts:EdelweissSeung": "{{Range:11,12}}" },
+            "Entries": {
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 13, 15}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 13, 15}}}}}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 13, 15}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 13, 15}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 13, 15}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 13, 15}}}}}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 13, 15}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 13, 15}}}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EdelweissSeung",
+            "When": { "Hearts:EdelweissSeung": "{{Range:13,14}}" },
+            "Entries": {
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 16, 20}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 16, 20}}}}}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 16, 20}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 16, 20}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 16, 20}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 16, 20}}}}}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 16, 20}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 16, 20}}}}}}"
             }
         },
         {
@@ -166,10 +388,10 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "Relationship:Edelweiss": "Married" },
             "Entries": {
-                "Custom_EdelweissBeach": "{{i18n:MCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissHouse": "{{i18n:MCustom_EdelweissHouse_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissAttic": "{{i18n:MCustom_EdelweissAttic_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissBasement": "{{i18n:MCustom_EdelweissBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:MCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:M{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:M{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:M{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
                 "RejectGift_(O)277": "{{i18n:MRejectGift_(O)277}}",
                 "RejectGift_(O)458": "{{i18n:MRejectGift_(O)458}}"
             }
@@ -179,10 +401,10 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "HavingChild": "@{{playerName}}" },
             "Entries": {
-                "Custom_EdelweissBeach": "{{i18n:PFCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissHouse": "{{i18n:PFCustom_EdelweissHouse_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissAttic": "{{i18n:PFCustom_EdelweissAttic_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissBasement": "{{i18n:PFCustom_EdelweissBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:PFCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:PF{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:PF{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:PF{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
                 "RejectGift_(O)277": "{{i18n:PFRejectGift_(O)277}}",
                 "RejectGift_(O)458": "{{i18n:PFRejectGift_(O)458}}"
             }
@@ -192,10 +414,10 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "HavingChild": "EdelweissSeung" },
             "Entries": {
-                "Custom_EdelweissBeach": "{{i18n:PECustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissHouse": "{{i18n:PECustom_EdelweissHouse_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissAttic": "{{i18n:PECustom_EdelweissAttic_{{Random:{{Range: 0, 3}}}}}}",
-                "Custom_EdelweissBasement": "{{i18n:PECustom_EdelweissBasement_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:PECustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelHouse": "{{i18n:PE{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelAttic": "{{i18n:PE{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelBasement": "{{i18n:PE{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
                 "RejectGift_(O)277": "{{i18n:PERejectGift_(O)277}}",
                 "RejectGift_(O)458": "{{i18n:PERejectGift_(O)458}}"
             }

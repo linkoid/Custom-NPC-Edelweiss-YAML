@@ -22,7 +22,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "EdelweissSeung_Engaged": "{{i18n:Edelengaged_0}}#$action AddMail Current EdelMarried all", //proposal
+                "EdelweissSeung_Engaged": "{{i18n:Edelengaged_0}}#$action AddMail Current EdelMarried received", //proposal
                 "EdelweissSeung_AfterWedding": "{{i18n:Edelaftermarry_{{Random:{{Range: 0, 5}}}}}}#$action AddMail Current EdelMarried all"
             }
         },
