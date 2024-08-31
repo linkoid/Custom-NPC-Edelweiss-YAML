@@ -103,7 +103,7 @@
                         "Aviroen": "{{i18n:Colleague}}"
                     },
                     "FlowerDanceCanDance": null, //sets if the npc will dance at the flower festival on spring 24
-                    "WinterStarGifts": [], //items that this npc can gift during the winter star festival
+                    "WinterStarGifts": [], //items that this npc can gift during the winter star festival https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields
                     "WinterStarParticipant": "PLAYER_NPC_RELATIONSHIP Current EdelweissSeung Married", //whether the npc even participates in winter star, can be game state query-able
                     "UnlockConditions": "PLAYER_HAS_MAIL Current EdelweissWarp any", //game state query-able about whether the npc has an unlock condidion before seen
                     "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
