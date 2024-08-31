@@ -21,6 +21,17 @@
         {
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
+            "When": {
+                "Relationship:EdelweissSeung": "Dating",
+                "Override Generic Dialogue": true
+            },
+            "Entries": {
+                "NPC.cs.3980": "{{i18n:EdelMermaidAccept}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
             "Entries": {
                 "EdelweissSeung_Engaged": "{{i18n:Edelengaged_0}}#$action AddMail Current EdelMarried received", //proposal
                 "EdelweissSeung_AfterWedding": "{{i18n:Edelaftermarry_{{Random:{{Range: 0, 5}}}}}}#$action AddMail Current EdelMarried all"
@@ -69,7 +80,8 @@
                 "EdelGoat": "{{i18n:EdelGoat}}", //attic goat
                 "EdelBear": "{{i18n:EdelBear}}", //attic bear
                 "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
-                "EdelJunimo": "{{i18n:EdelJunimo}}" //attic junimo
+                "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
+                "EdelGrave": "{{i18n:EdelGrave}} #$action AddMail Current EdelGrave received" //wait for 1.6.9
             }
         }
     ]

@@ -153,7 +153,7 @@
         },
         { //YEAR two luau festival data
             "Action": "EditData",
-            "Target": "Data/Festivals/fair16",
+            "Target": "Data/Festivals/fall16",
             "When": {
                 "IsOddYear": false
             },
@@ -196,7 +196,7 @@
         },
         { //YEAR two luau festival data
             "Action": "EditData",
-            "Target": "Data/Festivals/fair27",
+            "Target": "Data/Festivals/fall27",
             "When": {
                 "IsOddYear": false
             },

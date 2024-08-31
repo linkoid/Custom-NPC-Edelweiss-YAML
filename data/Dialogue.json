@@ -4,6 +4,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
             "Entries": {
+                "{{ModId}}_GraveBad": "{{i18n:GraveBad}}",
+                "{{ModId}}_GraveBad2": "{{i18n:GraveBad2}}",
                 //green rain
                 "GreenRain": "{{i18n:GreenRain_{{Random:{{Range: 0, 3}}}}}}",
                 "GreenRainFinished": "{{i18n:GreenRainFinished_{{Random:{{Range: 0, 3}}}}}}",
@@ -55,7 +57,7 @@
                 "AcceptBirthdayGift_Negative": "{{i18n:AcceptBirthdayGift_Negative}}",
                 "AcceptBirthdayGift_Positive": "{{i18n:AcceptBirthdayGift_Positive}}",
                 "AcceptBirthdayGift": "{{i18n:AcceptBirthdayGift}}",
-                //dating proposal
+                //dating dating
                 "AcceptBouquet": "{{i18n:AcceptBouquet}}",
                 //trashcan
                 "DumpsterDiveComment": "{{i18n:DumpsterDiveComment}}",
@@ -388,7 +390,7 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "Relationship:Edelweiss": "Married" },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:MCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:M{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:M{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:M{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:M{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
@@ -401,7 +403,7 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "HavingChild": "@{{playerName}}" },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:PFCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:PF{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:PF{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:PF{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:PF{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
@@ -414,7 +416,7 @@
             "Target": "Characters/Dialogue/EdelweissSeung",
             "When": { "HavingChild": "EdelweissSeung" },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:PECustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:PE{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:PE{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:PE{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:PE{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",

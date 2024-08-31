@@ -8,10 +8,16 @@
             "Description": "Default true to have Edelweiss' memory be unwipeable from the witch statue."
         },
         "SpouseRoom": {
-            "AlloweValues": "Furnished, Unfurnished",
+            "AllowValues": "Furnished, Unfurnished",
             "Default": "Furnished",
             "Section": "Content",
             "Description": "Make Edelweiss' spouseroom unfurnished or furnished."
+        },
+        "Override Generic Dialogue": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Content",
+            "Description": "Overrides Mermaid Pendant acceptance, and other misc in StringsFromCSFiles."
         }
     },
     ///////////////////////////////////////////////////////dynamic tokens
@@ -27,6 +33,31 @@
             "Value": "Cabin",
             "When": {
                 "IsMainPlayer": "false"
+            }
+        },
+        {
+            "Name": "Mood",
+            "Value": "{{i18n:Gravestone.good}}"
+        },
+        {
+            "Name": "Mood",
+            "Value": "{{i18n:Gravestone.bad}}#$action AddConversationTopic {{ModId}}_GraveBad 1",
+            "When": {
+                "Weather": "Storm"
+            }
+        },
+        {
+            "Name": "Mood",
+            "Value": "{{i18n:Gravestone.worst}}#$action AddConversationTopic {{ModId}}_GraveBad2 1",
+            "When": {
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "Name": "Mood",
+            "Value": "{{i18n:Gravestone.abysmal}}#$action AddConversationTopic {{ModId}}_GraveBad2 1",
+            "When": {
+                "HasFlag": "EdelweissWiped"
             }
         },
         {
@@ -88,8 +119,10 @@
             "FromFile": "assets/Furniture/{{TargetWithoutPath}}.png"
         },
         { //blank loads so that i can target edit
+            "LogName": "BlankLoads",
             "Action": "Load",
-            "Target": "Characters/Dialogue/EdelweissSeung, Characters/Dialogue/MarriageDialogueEdelweissSeung, Characters/schedules/EdelweissSeung, Strings/Schedules/EdelweissSeung",
+            "Priority": "Low",
+            "Target": "Characters/Dialogue/EdelweissSeung, Characters/Dialogue/MarriageDialogueEdelweissSeung, Characters/schedules/EdelweissSeung, Strings/Schedules/EdelweissSeung, data/Events/{{ModId}}_ArtificialBeach, data/Events/{{ModId}}_EdelweissHouse, data/Events/{{ModId}}_EdelweissAttic, data/Events/{{ModId}}_EdelweissBasement",
             "FromFile": "data/Blank.json"
         },
         //////////////////////////////////////////////includes

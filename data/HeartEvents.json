@@ -4,23 +4,20 @@
         { //edelintro
             "LogName": "Heart Event - 0",
             "Action": "EditData",
-            "Target": "data/events/{{ModId}}_EdelHouse",
-            "When": {
-                "HasFlag": "EdelweissWarp"
-            },
+            "Target": "data/events/{{ModId}}_EdelweissHouse",
             "Entries": {
-                "EdelweissIntro/F": "continue/5 18/farmer 5 25 0 EdelweissSeung 26 19 1/viewport 5 18 true clamp/animate EdelweissSeung false true 400 54 55/pause 300/playsound doorClose/warp farmer 5 24/move farmer 0 -5 0/move farmer 18 0 1/pause 300/emote farmer 8/pause 300/playsound dropItemInWater/pause 300/emote farmer 40/pause 300/beginSimultaneousCommand/startJittering/showframe farmer 97/playsound dialogueCharacterClose/stopJittering/endSimultaneousCommand/pause 50/stopAnimation EdelweissSeung/jump EdelweissSeung/pause 100/emote EdelweissSeung 16/facedirection EdelweissSeung 3/speak EdelweissSeung \"{{i18n:Edel.0Heart.1}}\"/pause 400/emote farmer 8/pause 100/emote EdelweissSeung 8/pause 400/emote EdelweissSeung 40/pause 100/emote EdelweissSeung 16/pause 200/shake EdelweissSeung 100/textAboveHead EdelweissSeung \"{{i18n:Edel.Ahem}}\"/pause 500/speak EdelweissSeung \"{{i18n:Edel.0Heart.2}}\"/pause 400/emote farmer 32/pause 100/emote EdelweissSeung 32/pause 400/end"
+                "EdelweissIntro/": "continue/5 18/farmer -100 -100 0 EdelweissSeung 26 19 1/skippable/viewport move 1 0 10000/animate EdelweissSeung false true 400 54 55/pause 500/playsound doorClose/pause 200/warp farmer 5 23/pause 100/move farmer 0 -5 0/move farmer 18 0 1/pause 300/emote farmer 8/pause 300/playsound dropItemInWater/pause 300/emote farmer 40/pause 300/beginSimultaneousCommand/showframe farmer 97/startJittering/playsound dialogueCharacterClose/stopJittering/endSimultaneousCommand/pause 50/stopAnimation EdelweissSeung/jump EdelweissSeung/pause 100/emote EdelweissSeung 16/facedirection EdelweissSeung 3/speak EdelweissSeung \"{{i18n:Edel.0Heart.1}}\"/pause 400/emote farmer 8/pause 100/emote EdelweissSeung 8/pause 400/emote EdelweissSeung 40/pause 100/emote EdelweissSeung 16/pause 200/shake EdelweissSeung 100/textAboveHead EdelweissSeung \"{{i18n:Edel.Ahem}}\"/pause 500/speak EdelweissSeung \"{{i18n:Edel.0Heart.2}}\"/pause 400/end warpOut"
             }
         },
         { //edelintro but wiped
             "LogName": "Heart Event - 0",
             "Action": "EditData",
-            "Target": "data/events/{{ModId}}_EdelHouse",
+            "Target": "data/events/{{ModId}}_EdelweissHouse",
             "When": {
                 "HasFlag": "EdelweissWiped"
             },
             "Entries": {
-                "EdelweissIntroW/F/e EdelweissIntro": "continue/5 18/farmer 5 25 0 EdelweissSeung 26 19 1/viewport 5 18 true clamp/animate EdelweissSeung false true 400 54 55/pause 300/playsound doorClose/warp farmer 5 24/move farmer 0 -5 0/move farmer 18 0 1/pause 300/emote farmer 8/pause 300/playsound dropItemInWater/pause 300/emote farmer 40/pause 300/beginSimultaneousCommand/startJittering/showframe farmer 97/playsound dialogueCharacterClose/stopJittering/endSimultaneousCommand/pause 50/stopAnimation EdelweissSeung/jump EdelweissSeung/pause 100/emote EdelweissSeung 16/facedirection EdelweissSeung 3/speak EdelweissSeung \"{{i18n:Edel.0Heart.3}}\"/pause 400/emote farmer 8/pause 100/emote EdelweissSeung 8/pause 400/emote EdelweissSeung 40/pause 100/emote EdelweissSeung 16/pause 200/shake EdelweissSeung 100/textAboveHead EdelweissSeung \"{{i18n:Edel.Ahem}}\"/pause 500/speak EdelweissSeung \"{{i18n:Edel.0Heart.4}}\"/pause 400/end warpOut"
+                "EdelweissIntroW/F/e EdelweissIntro/": "continue/5 18/farmer 5 24 0 EdelweissSeung 26 19 1/skippable/viewport 5 18 true clamp/animate EdelweissSeung false true 400 54 55/pause 300/playsound doorClose/warp farmer 5 24/move farmer 0 -5 0/move farmer 18 0 1/pause 300/emote farmer 8/pause 300/playsound dropItemInWater/pause 300/emote farmer 40/pause 300/beginSimultaneousCommand/startJittering/showframe farmer 97/playsound dialogueCharacterClose/stopJittering/endSimultaneousCommand/pause 50/stopAnimation EdelweissSeung/jump EdelweissSeung/pause 100/emote EdelweissSeung 16/facedirection EdelweissSeung 3/speak EdelweissSeung \"{{i18n:Edel.0Heart.3}}\"/pause 400/emote farmer 8/pause 100/emote EdelweissSeung 8/pause 400/emote EdelweissSeung 40/pause 100/emote EdelweissSeung 16/pause 200/shake EdelweissSeung 100/textAboveHead EdelweissSeung \"{{i18n:Edel.Ahem}}\"/pause 500/speak EdelweissSeung \"{{i18n:Edel.0Heart.4}}\"/pause 400/end warpOut"
             }
         }
 

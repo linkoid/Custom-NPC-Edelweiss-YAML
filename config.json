@@ -1,4 +1,5 @@
 {
   "Unwipeable": "true",
-  "SpouseRoom": "Furnished"
+  "SpouseRoom": "Furnished",
+  "Override Generic Dialogue": "true"
 }

@@ -3,9 +3,6 @@
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
- <properties>
-  <property name="Warp" value="2 9 Aviroen.Edelweiss_EdelHouse 12 4"/>
- </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
  </tileset>

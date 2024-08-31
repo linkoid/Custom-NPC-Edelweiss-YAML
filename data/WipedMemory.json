@@ -194,9 +194,12 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
-            "When": { "Relationship:Edelweiss": "Married" },
+            "When": {
+                "Relationship:Edelweiss": "Married",
+                "HasFlag": "EdelweissWiped"
+            },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.MCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.M{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:Wiped.M{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:Wiped.M{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:Wiped.M{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
@@ -207,9 +210,12 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
-            "When": { "HavingChild": "@{{playerName}}" },
+            "When": {
+                "HavingChild": "@{{playerName}}",
+                "HasFlag": "EdelweissWiped"
+            },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PFCustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PF{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:Wiped.PF{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:Wiped.PF{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:Wiped.PF{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",
@@ -220,9 +226,12 @@
         {
             "Action": "EditData",
             "Target": "Characters/Dialogue/EdelweissSeung",
-            "When": { "HavingChild": "EdelweissSeung" },
+            "When": {
+                "HavingChild": "EdelweissSeung",
+                "HasFlag": "EdelweissWiped"
+            },
             "Entries": {
-                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PECustom_EdelweissBeach_{{Random:{{Range: 0, 3}}}}}}",
+                "{{ModId}}_EdelArtificialBeach": "{{i18n:Wiped.PE{{ModId}}_ArtificialBeach_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelHouse": "{{i18n:Wiped.PE{{ModId}}_EdelHouse_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelAttic": "{{i18n:Wiped.PE{{ModId}}_EdelAttic_{{Random:{{Range: 0, 3}}}}}}",
                 "{{ModId}}_EdelBasement": "{{i18n:Wiped.PE{{ModId}}_EdelBasement_{{Random:{{Range: 0, 3}}}}}}",

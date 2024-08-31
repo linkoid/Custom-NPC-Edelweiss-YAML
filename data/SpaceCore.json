@@ -21,8 +21,8 @@
                     "ArtifactSpotChances": null,
                     "CanBeGivenAsGift": false,
                     "CanBeTrashed": true,
-                    "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_purple",
@@ -51,7 +51,7 @@
             "Entries": {
                 "{{ModId}}_WarpTotem": {
                     "TotemWarp": {
-                        "Location": "Aviroen.Edelweiss_EdelArtificialBeach",
+                        "Location": "{{ModId}}_ArtificialBeach",
                         "Position": "7, 28",
                         "Color": {
                             "R": 152,
@@ -126,8 +126,24 @@
                     }
                 }
             }
+        },
+        {
+            "LogName": "Edel's Grave",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/Questions",
+            "Entries": {
+                "EdelweissSeung": {
+                    "Id": "{{ModId}}_Gravestone",
+                    "Weight": 10,
+                    "QuestionText": "{{i18n:Gravestone.q}}",
+                    "AnswerText": "{{Mood}}",
+                    "CanRepeatQuestion": true,
+                    "FriendshipModifier": 0,
+                    "Condition": { "HasFlag": "EdelGrave" }
+                }
+            }
         }
-/*
+    /*
     So just `$action spacechase0.SpaceCore_PlayEvent myeventid` in your dialogue (though where you put it I don't know, I haven't done it before)
     */
     ]

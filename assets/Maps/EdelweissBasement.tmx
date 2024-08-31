@@ -42,13 +42,7 @@
   </data>
  </layer>
  <objectgroup id="25" name="Back"/>
- <objectgroup id="26" name="Buildings">
-  <object id="85" name="TileData" x="288" y="48" width="16" height="16">
-   <properties>
-    <property name="Action" value="Warp 27 4 Aviroen.Edelweiss_EdelHouse"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="26" name="Buildings"/>
  <objectgroup id="27" name="Front"/>
  <objectgroup id="28" name="Paths"/>
 </map>

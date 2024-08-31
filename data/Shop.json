@@ -18,9 +18,19 @@
                             "Dialogues": [
                                 {
                                     "Id": "{{ModId}}_ShadyArtificialShack",
-                                    "Dialogue": "{{i18n:ShadyArtificialShack}}",
                                     "Condition": null,
-                                    "RandomDialogue": null
+                                    "RandomDialogue": [
+                                        "{{i18n:ShadyArtificialShack1}}",
+                                        "{{i18n:ShadyArtificialShack2}}",
+                                        "{{i18n:ShadyArtificialShack3}}",
+                                        "{{i18n:ShadyArtificialShack4}}",
+                                        "{{i18n:ShadyArtificialShack5}}",
+                                        "{{i18n:ShadyArtificialShack6}}",
+                                        "{{i18n:ShadyArtificialShack7}}",
+                                        "{{i18n:ShadyArtificialShack8}}",
+                                        "{{i18n:ShadyArtificialShack9}}",
+                                        "{{i18n:ShadyArtificialShack10}}"
+                                    ]
                                 }
                             ],
                             "Name": "AnyOrNone"

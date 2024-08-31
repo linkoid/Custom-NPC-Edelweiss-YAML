@@ -57,13 +57,19 @@
                         "AddMail Current EdelweissWarp tomorrow"
                     ]
                 },
-
                 "{{ModId}}_DayEndClearer": {
                     "Id": "{{ModId}}_DayEndClearer",
                     "Trigger": "DayEnding",
                     "Actions": [
                         "RemoveMail Current EdelweissSeung_PassOut",
                         "MarkActionApplied Current {{ModId}}_DayEndClearer false"
+                    ]
+                },
+                "{{ModId}}_GraveTouched": {
+                    "Id": "{{ModId}}_GraveTouched",
+                    "Trigger": "Manual",
+                    "Actions": [
+                        "AddMail Current EdelGrave received" //wait for 1.6.9
                     ]
                 }
             }

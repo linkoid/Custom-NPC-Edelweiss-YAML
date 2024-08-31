@@ -5,9 +5,7 @@
  </editorsettings>
  <properties>
   <property name="DayTiles" value="Buildings5 3 1 469 Buildings5 3 2 501 Buildings5 6 1 469 Buildings5 6 2 501 Buildings5 13 1 469 Buildings5 13 2 501 Buildings5 17 1 469 Buildings5 17 2 501 Buildings5 22 1 469 Buildings5 22 2 501 Buildings5 26 1 469 Buildings5 26 2 501"/>
-  <property name="Doors" value="11 17 1 120"/>
   <property name="NightTiles" value="Buildings5 3 1 1219 Buildings5 3 2 1251 Buildings5 6 1 1219 Buildings5 6 2 1251 Buildings5 13 1 1219 Buildings5 13 2 1251 Buildings5 17 1 1219 Buildings5 17 2 1251 Buildings5 22 1 1219 Buildings5 22 2 1251 Buildings5 26 1 1219 Buildings5 26 2 1251"/>
-  <property name="Warp" value="5 24 Aviroen.Edelweiss_EdelArtificialBeach 23 13"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
@@ -32,6 +30,11 @@
  <layer id="3" name="Back2" width="30" height="25">
   <data encoding="base64" compression="zlib">
    eJzt1LlKA0EcgPGBpMnskspbX0Erb63ttBFvQcGj9sD7SGqjpZpEQV9CTVZfwANtNa2geLTeFn6NZF02uomTtTB/+MFAduabhLBC5Oa/jOHLfO+hFOIIxziRXz8r14Wo0FPvTfyie0PrFne4t3SbabbYdB/oPeIJz3jBK97w7vAuPk0ICQ265mxPPvcrQCGKUIwSlKJM/rw/06ni7GrUoBZ1qEcDGrPYbePsdnSgE13oRg96HXab/Ml1q9/+mT7O6jedN8F6ElOYxgxmMYd5hd83wFlB03mrrNewjjAiiGIDmwq7W5y1bTpvh/Uu9hBDHAb2cWB6Ls+r7g7pTK7rzlSm2b30CHFtceXJzt3suqf8N89ksu1WN8zvFEHUq7Y7wPtpEEMYNr2rPrsxenEYirsjtEYxhnGb7jm9CyQUdxdoLSKAoE3XStUs0QphGSsudlPNX3W/mw9pUF64
+  </data>
+ </layer>
+ <layer id="5" name="Back3" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxUIcTIwCHOiin3mYGD4wkFb+4yA2JgTt/wGRgjfg4uBwZMLIb+ECdOd2XzY7YKZAQIw+77j8Beye7qYUOVIDSNkOZjb0M3AZiY+N6EDfOYZAcPLGIhNuDDNIBTuKPYjmYNLPzI/CKguGIhDuBiIBtjcQ6w5cWjxDvMDOWkamx70tAcDsDQEMxPmB3zxhQuQogfdjSB3EJOOKAXY3EiOX8kB9PAfNkAv/2EDyOkOPY1TG+AKX0rCHVu5gaEGR/hSEu7Yyg1ceZgWgFCY0SotI4cZtnKOFmkZ5hdQ+qRHOQTLB8h+ucExsPl0oAEAOnsuGA==
   </data>
  </layer>
  <layer id="19" name="Buildings" width="30" height="25">
@@ -85,25 +88,11 @@
  </layer>
  <objectgroup id="2" name="Back"/>
  <objectgroup id="4" name="Back2"/>
+ <objectgroup id="6" name="Back3"/>
  <objectgroup id="10" name="Buildings">
   <properties>
    <property name="Action" value="Door EdelweissSeung"/>
   </properties>
-  <object id="1" name="TileData" x="192" y="48" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 2 9 Aviroen.Edelweiss_EdelAttic 600 2600 EdelweissSeung 2500"/>
-   </properties>
-  </object>
-  <object id="8" name="TileData" x="176" y="272" width="16" height="16">
-   <properties>
-    <property name="Action" value="Door EdelweissSeung"/>
-   </properties>
-  </object>
-  <object id="7" name="TileData" x="432" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 18 3 Aviroen.Edelweiss_EdelBasement 600 2600 EdelweissSeung 2750"/>
-   </properties>
-  </object>
   <object id="2" name="TileData" x="16" y="80" width="16" height="16">
    <properties>
     <property name="Action" value="Message 26053Books"/>

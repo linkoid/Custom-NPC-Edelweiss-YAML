@@ -2,14 +2,21 @@
     //configs
     "config.section.Content.name": "Content",
     "config.section.Content.description": "Changes settings if some parts of story/lore aren't interesting to you.",
+
     "config.section.Unwipeable.name": "Unwipeable",
     "config.section.Unwipeable.description": "Default true to have Edelweiss' memory be unwipeable from the witch statue.",
     "config.section.Unwipeable.values.true": "true",
     "config.section.Unwipeable.values.false": "false",
+
     "config.section.SpouseRoom.name": "SpouseRoom",
     "config.section.SpouseRoom.description": "Make Edelweiss' spouseroom unfurnished or furnished.",
     "config.section.SpouseRoom.values.furnished": "Furnished",
     "config.section.SpouseRoom.values.unfurnished": "Unfurnished",
+
+    "config.section.Override Generic Dialogue.name": "Override Generic Dialogue",
+    "config.section.Override Generic Dialogue.description": "Overrides Mermaid Pendant acceptance, and other misc in StringsFromCSFiles.",
+    "config.section.Override Generic Dialogue.values.true": "true",
+    "config.section.Override Generic Dialogue.values.false": "false",
 
     ////////////////////////////////////////////////////////////////////
     //misc
@@ -20,16 +27,28 @@
     "Colleague": "Colleague",
     "EdelPortrait": "Edel's Portrait",
     "Name.Edelweiss": "Edelweiss",
+
+    //misc bubbles
     "Edel.Dot": "...",
     "Edel.Cough": "*Cough*",
     "Edel.Hello": "Hello, @.",
     "Edel.Laugh": "*Giggle*",
     "Edel.Sigh": "*Sigh*",
     "Edel.Ahem": "*Ahem*",
+
     "Edelweiss.Warp.Totem": "Artificial Beach Warp Totem",
     "Edelweiss.Warp.Totem.Description": "A magically crafted warp totem meant to warp to Edelweiss' artificial beach.",
     "SummitEvent": "I was told by Welwick and Master Rasmodius that this valley would change me, for the better...$3#$b#I doubted their words because of my insecurities.$6#$b#I'm glad that I took the apprenticeship from Rasmodius.$1#$b#You and I have been through so much together, I'm glad that I had someone like you through this chaos.$6#$b#I hope that we get to enjoy many more years together!$10",
-    "ShadyArtificialShack": "What're ya buyin?",
+    "ShadyArtificialShack1": "What're ya buyin?",
+    "ShadyArtificialShack2": "Lamp oil, rope, bombs. You want it? It's yours my friend! As long as you have enough money.",
+    "ShadyArtificialShack3": "",
+    "ShadyArtificialShack4": "",
+    "ShadyArtificialShack5": "",
+    "ShadyArtificialShack6": "",
+    "ShadyArtificialShack7": "",
+    "ShadyArtificialShack8": "",
+    "ShadyArtificialShack9": "",
+    "ShadyArtificialShack10": "",
 
     ////////////////////////////////////////////////////////////////////
     //schedule dialogue
@@ -1427,23 +1446,6 @@
     "WipedMemory_9": "",
     "WipedMemory_10": "",
 
-    //at work dialogue
-    //married
-    "MCustom_EdelweissBeach_0": "",
-    "MCustom_EdelweissBeach_1": "",
-    "MCustom_EdelweissBeach_2": "",
-    "MCustom_EdelweissBeach_3": "",
-    //farmer preg
-    "PFCustom_EdelweissBeach_0": "",
-    "PFCustom_EdelweissBeach_1": "",
-    "PFCustom_EdelweissBeach_2": "",
-    "PFCustom_EdelweissBeach_3": "",
-    //edel preg
-    "PECustom_EdelweissBeach_0": "",
-    "PECustom_EdelweissBeach_1": "",
-    "PECustom_EdelweissBeach_2": "",
-    "PECustom_EdelweissBeach_3": "",
-
     ////////////////////////////////////////////////////////////////////
     //heart events
     //0 heart
@@ -1745,9 +1747,17 @@
     "EdelBear": "", //attic bear
     "EdelJewel": "", //attic jewel
     "EdelJunimo": "", //attic junimo
+    "EdelGrave": "A lovingly handcarved gravestone.#It reads:#'In Memoriam of Varaphong.#Loving father.#May you rest in peace.#Your child is...'#The rest is scratched off...",
+    "Gravestone.q": "Who is 'Varaphong'?",
+    "Gravestone.good": "Ah?$6#$b#Oh.. I see, you've read the gravestone out front.$2#$b#That's... my father.$9#$b#I loved him very much, as you can tell.$6",
+    "Gravestone.bad": "Ah?$9#$b#That's my father's name.$9#$b#I'm not really in a good mood to tell you about him, maybe some other time.$9",
+    "GraveBad": "Edelweiss is in deep thought.",
+    "GraveBad2": "Edelweiss is ignoring you.",
+    "Gravestone.worst": "Ah...$9#$b#Today isn't a good day, I apologize I'm not in any mood to talk about it.$9",
+    "Gravestone.abysmal": "I do not wish to talk to you about that, it is deeply personal and we're no longer inclined to be cordial to each other.$5",
     ////////////////////////////////////////////////////////////////////
     //strings
-
+    "EdelMermaidAccept": "",
     //engaged
     "Edelengaged_0": "", //5
     "Edelaftermarry_0": "", //5
