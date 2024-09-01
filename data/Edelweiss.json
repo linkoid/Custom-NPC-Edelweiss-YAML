@@ -160,6 +160,30 @@
                     "CanBeRomanced": false
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "PlayerGender": "Male"
+            },
+            "Fields": {
+                "EdelweissSeung": {
+                    "Gender": "Female"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "PlayerGender": "Female"
+            },
+            "Fields": {
+                "EdelweissSeung": {
+                    "Gender": "Male"
+                }
+            }
         }
     ]
 }
