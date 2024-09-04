@@ -1,0 +1,154 @@
+Changes:
+- Action: EditData
+  Target: Data/Characters
+  Entries:
+    "EdelweissSeung":
+      DisplayName: "{{i18n:Edelweiss}}"
+      BirthSeason: "Fall"
+      BirthDay: 3
+      HomeRegion: "Other"
+      Language: "Default"
+      Gender: "Undefined"
+      Age: "Adult"
+      Manner: "Rude"
+      SocialAnxiety: "Shy"
+      Optimism: "Negative"
+      IsDarkSkinned: False
+      CanBeRomanced: True
+      LoveInterest: 
+      Calendar: "HiddenUntilMet"
+      SocialTab: "HiddenUntilMet"
+      CanSocialize: 
+      CanReceiveGifts: True
+      CanGreetNearbyCharacters: True
+      CanCommentOnPurchasedShopItems: 
+      CanVisitIsland: "PLAYER_NPC_RELATIONSHIP Current EdelweissSeung Married"
+      IntroductionsQuest: False
+      ItemDeliveryQuests: 
+      PerfectionScore: False
+      EndSlideShow: "TrailingGroup"
+      SpouseAdopts: "PLAYER_HAS_MAIL Current EdelAdopt Any"
+      SpouseWantsChildren: True
+      SpouseGiftJealousy: 
+      SpouseGiftJealousyFriendshipChange: -30
+      SpouseRoom:
+        MapAsset: "{{ModId}}_EdelweissSpouseRoom"
+        MapSourceRect:
+          X: 0
+          Y: 0
+          Width: 6
+          Height: 9
+      SpousePatio:
+        MapAsset: "{{ModId}}_EdelweissPatio"
+        MapSourceRect:
+          X: 0
+          Y: 0
+          Width: 4
+          Height: 4
+        SpriteAnimationFrames: # this is the animation that loops when your custom npc is standing on their spousepatio, [frame, miliseconds]
+          - [16, 1500]
+          - [17, 1500]
+          - [18, 1500]
+          - [19, 1500]
+          - [18, 1500]
+          - [19, 1500]
+          - [18, 1500]
+          - [17, 1500]
+          - [16, 1500]
+          - [0, 2500]
+          - [32, 1500]
+          - [33, 500]
+          - [34, 1500]
+          - [35, 1500]
+          - [32, 1500]
+          - [32, 1500]
+          - [33, 500]
+          - [34, 1500]
+          - [35, 1500]
+          - [32, 1500]
+          - [0, 3500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+          - [52, 1500]
+          - [53, 2500]
+        SpriteAnimationPixelOffset:
+          X: 0
+          Y: 0
+      SpouseFloors: []
+      SpouseWallpapers: []
+      DumpsterDiveFriendshipEffect: -5
+      DumpsterDiveEmote: 
+      FriendsAndFamily:
+        Wizard: "{{i18n:Teacher}}"
+        Aviroen: "{{i18n:Colleague}}"
+      FlowerDanceCanDance: 
+      WinterStarGifts: []
+      WinterStarParticipant: "PLAYER_NPC_RELATIONSHIP Current EdelweissSeung Married"
+      UnlockConditions: "PLAYER_HAS_MAIL Current EdelweissWarp any"
+      SpawnIfMissing: True
+      Home: # sets the npc's spawn point
+        - Id: "Default"
+          Condition: 
+          Location: "{{ModId}}_EdelweissHouse"
+          Tile:
+            X: 26
+            Y: 19
+          Direction: "right"
+      TextureName: 
+      Appearance: 
+      MugShotSourceRect: 
+      Size:
+        X: 16
+        Y: 32
+      Breather: True
+      BreathChestRect: 
+      BreathChestPosition: 
+      Shadow: 
+      EmoteOffset:
+        X: 0
+        Y: 0
+      ShakePortraits: [15]
+      KissSpriteIndex: 39
+      KissSpriteFacingRight: False
+      HiddenProfileEmoteSound: "newRecipe"
+      HiddenProfileEmoteDuration: 4000
+      HiddenProfileEmoteStartFrame: 32
+      HiddenProfileEmoteFrameCount: 2
+      HiddenProfileEmoteFrameDuration: 200
+      FormerCharacterNames: []
+      CustomFields: 
+- LogName: Joja Bad
+  Action: EditData
+  Target: Data/Characters
+  When:
+    "HasFlag": "jojaMember"
+    "HasMod": "FlashShifter.StardewValleyExpandedCP"
+  Fields:
+    "EdelweissSeung":
+      CanBeRomanced: False
+- Action: EditData
+  Target: Data/Characters
+  When:
+    "PlayerGender": "Male"
+  Fields:
+    "EdelweissSeung":
+      Gender: Female
+- Action: EditData
+  Target: Data/Characters
+  When:
+    "PlayerGender": "Female"
+  Fields:
+    "EdelweissSeung":
+      Gender: Male
