@@ -1,3 +1,9 @@
+[![Stardew Valley](https://custom-icon-badges.demolab.com/badge/Stardew_Valley-FFD58E.svg?logo=stardewvalley)](https://stardewvalleywiki.com/Stardew_Valley)
+[![Yet Another Content Patcher YAML](https://custom-icon-badges.demolab.com/badge/Yet_Another_Content_Patcher-YAML-CB171E.svg?logo=smapi)](https://github.com/linkoid/Stardew.YetAnother.ContentPatcher)
+[![Space Core](https://custom-icon-badges.demolab.com/badge/Space_Core-gray?logo=smapi)](https://github.com/spacechase0/StardewValleyMods/tree/develop/SpaceCore)
+[![Custom Tokens](https://custom-icon-badges.demolab.com/badge/Custom_Tokens-gray.svg?logo=smapi)](https://github.com/TheMightyAmondee/CustomTokens)
+
+
 Content.yaml is restricted to Dynamic Tokens, Generic Mod Config Menu, included files, and blankloading to have edit/data for other .yamls
 
 Edelweiss.yaml has the Data/Character layout with expansive comments
