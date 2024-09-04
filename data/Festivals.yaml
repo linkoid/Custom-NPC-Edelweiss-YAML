@@ -1,0 +1,163 @@
+Changes:
+# ////////////////////////////////////egg
+  - Action: EditData
+    Target: Data/Festivals/spring13
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.EggFestival}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 47 77 down
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/spring13
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.EggFestival_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 47 77 down
+      Delimiter: /
+  # /////////////////////////////flower
+  - Action: EditData
+    Target: Data/Festivals/spring24
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.FlowerFestival}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 25 24 down
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/spring24
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.FlowerFestival_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 25 24 down
+      Delimiter: /
+  # /////////////////////////////luau
+  - Action: EditData
+    Target: Data/Festivals/summer11
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.Luau}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 56 6 down
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/summer11
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.Luau_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 56 9 down
+      Delimiter: /
+  # /////////////////////////////fair
+  - Action: EditData
+    Target: Data/Festivals/fall16
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.Fair}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 40 31 down
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/fall16
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.Fair_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 34 31 down
+      Delimiter: /
+  # /////////////////////////////spirit
+  - Action: EditData
+    Target: Data/Festivals/fall27
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.Spirit}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 21 22 down/animate EdelweissSeung false true 1500 52 53 52
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/fall27
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.Spirit_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 21 22 down/animate EdelweissSeung false true 1500 52 53 52
+      Delimiter: /
+  # /////////////////////////////xmas
+  - Action: EditData
+    Target: Data/Festivals/winter25
+    When:
+      "IsOddYear": True
+    Entries:
+      "EdelweissSeung": "{{i18n:Edel.Xmas}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 52 71 up
+      Delimiter: /
+  - Action: EditData
+    Target: Data/Festivals/winter25
+    When:
+      "IsOddYear": False
+    Entries:
+      "EdelweissSeung_y2": "{{i18n:Edel.Xmas_y2}}"
+    TextOperations:
+    - Operation: Append
+      Target:
+      - "Entries"
+      - "Set-Up_additionalCharacters"
+      Value: EdelweissSeung 52 71 up
+      Delimiter: /
