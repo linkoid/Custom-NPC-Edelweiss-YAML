@@ -1,0 +1,108 @@
+Changes:
+- Action: EditData
+  Target: Data/Objects
+  Entries:
+    "{{ModId}}_WarpTotem":
+      Name: "Warp Totem: Artificial Beach"
+      DisplayName: "{{i18n:Edelweiss.Warp.Totem}}"
+      Description: "{{i18n:Edelweiss.Warp.Totem.Description}}"
+      Type: Crafting
+      Category: 0
+      Price: 20
+      Texture: "Mods\\{{ModId}}\\{{ModId}}_WarpTotem"
+      SpriteIndex: 0
+      Edibility: -300
+      IsDrink: False
+      Buffs: 
+      GeodeDropsDefaultItems: False
+      GeodeDrops: 
+      ArtifactSpotChances: 
+      CanBeGivenAsGift: False
+      CanBeTrashed: True
+      ExcludeFromFishingCollection: True
+      ExcludeFromShippingCollection: True
+      ExcludeFromRandomSale: True
+      ContextTags:
+      - "color_purple"
+      - "not_placeable"
+      - "totem_item"
+      CustomFields: 
+- Action: Load
+  Target: "Mods/{{ModId}}/{{ModId}}_WarpTotem"
+  FromFile: "assets/Furniture/warptotem.png"
+- Action: EditData
+  Target: Data/CraftingRecipes
+  Entries:
+    "Warp Totem: Artificial Beach": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
+- Action: EditData
+  Target: spacechase0.SpaceCore/ObjectExtensionData
+  Entries:
+    "{{ModId}}_WarpTotem":
+      TotemWarp:
+        Location: "{{ModId}}_ArtificialBeach"
+        Position: "7, 28"
+        Color:
+          R: 152
+          G: 146
+          B: 165
+          A: 0
+- Action: EditData
+  Target: spacechase0.SpaceCore/ScheduleAnimationExtensionData
+  Entries:
+    "edel_hammer":
+      SourceRectSize: "16, 32"
+      DrawOffset: "0, 0"
+      AppearanceOverride: 
+      OnStart:
+        Emote: 
+        PlaySound: 
+      OnEnd:
+        Emote: 
+        PlaySound: 
+      OnFrame:
+        9:
+          Emote: 
+          PlaySound: "hammer"
+    "edel_sleepyright":
+      SourceRectSize: "16, 32"
+      DrawOffset: "0, 0"
+      AppearanceOverride: 
+      OnStart:
+        Emote: 
+        PlaySound: 
+      OnEnd:
+        Emote: 
+        PlaySound: 
+      OnFrame:
+        14:
+          Emote: 
+          PlaySound: "dwoop"
+    "edel_sleepyleft":
+      SourceRectSize: "16, 32"
+      DrawOffset: "0, 0"
+      AppearanceOverride: 
+      OnStart:
+        Emote: 
+        PlaySound: 
+      OnEnd:
+        Emote: 
+        PlaySound: 
+      OnFrame:
+        14:
+          Emote: 
+          PlaySound: "dwoop"
+- LogName: "Edel's Grave"
+  Action: EditData
+  Target: spacechase0.SpaceCore/Questions
+  Entries:
+    "EdelweissSeung":
+      Id: "{{ModId}}_Gravestone"
+      Weight: 10
+      QuestionText: "{{i18n:Gravestone.q}}"
+      AnswerText: "{{Mood}}"
+      CanRepeatQuestion: True
+      FriendshipModifier: 0
+      Condition: {HasFlag: "EdelGrave"}
+# 
+#     So just `$action spacechase0.SpaceCore_PlayEvent myeventid` in your dialogue (though where you put it I don't know, I haven't done it before)
+#     
