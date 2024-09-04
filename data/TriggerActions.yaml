@@ -1,0 +1,50 @@
+Changes:
+# make 5 years event "alone on a friday night?" meme
+  - LogName: 'Trigger Actions: Base'
+    Action: EditData
+    Target: Data/TriggerActions
+    Entries:
+      "{{ModId}}_DivorceFlag":
+        Id: "{{ModId}}_DivorceFlag"
+        Trigger: "DayStarted"
+        Condition: "PLAYER_NPC_RELATIONSHIP Current EdelweissSeung Divorced"
+        Actions:
+        - "AddMail Current EdelDivorced Received"
+      "{{ModId}}_WipedFlag":
+        Id: "{{ModId}}_WipedFlag"
+        Trigger: "DayStarted"
+        Condition: >
+          PLAYER_HAS_MAIL Current EdelMarried,
+          PLAYER_HAS_MAIL Current EdelDivorced,
+          PLAYER_NPC_RELATIONSHIP Current EdelweissSeung Friendly
+        Actions:
+        - "AddMail Current EdelWiped Received"
+      "{{ModId}}_InfinityGlove":
+        Id: "{{ModId}}_InfinityGlove"
+        Trigger: "DayStarted"
+        Condition: "PLAYER_HAS_MAIL Current EdelWiped, {{Unwipeable|contains=true}}"
+        Actions:
+        - "AddMail Current EdelweissWiped Received"
+      "{{ModId}}_FridayAlone":
+        Id: "{{ModId}}_FridayAlone"
+        Trigger: "DayStarted"
+        Condition: "YEAR 5, !PLAYER_HAS_SEEN_EVENT Current Wedding"
+        Actions:
+        - "AddMail Current Year5Alone Received"
+      "{{ModId}}_WarpMailer":
+        Id: "{{ModId}}_WarpMailer"
+        Trigger: "DayStarted"
+        Condition: "MINE_LOWEST_LEVEL_REACHED 121"
+        Actions:
+        - "AddMail Current EdelweissWarp tomorrow"
+      "{{ModId}}_DayEndClearer":
+        Id: "{{ModId}}_DayEndClearer"
+        Trigger: "DayEnding"
+        Actions:
+        - "RemoveMail Current EdelweissSeung_PassOut"
+        - "MarkActionApplied Current {{ModId}}_DayEndClearer false"
+      "{{ModId}}_GraveTouched":
+        Id: "{{ModId}}_GraveTouched"
+        Trigger: "Manual"
+        Actions:
+        - "AddMail Current EdelGrave received" # wait for 1.6.9
