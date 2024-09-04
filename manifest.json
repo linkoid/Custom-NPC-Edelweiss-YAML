@@ -7,6 +7,11 @@
     "UpdateKeys": [ "Nexus:26053" ],
     "Dependencies": [
         {
+            "UniqueID": "Linkoid.YetAnother.ContentPatcher",
+            "MinimumVersion": "0.2.0",
+            "IsRequired": true
+        },
+        {
             "UniqueID": "spacechase0.SpaceCore",
             "IsRequired": true
         },
