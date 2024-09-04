@@ -1,0 +1,68 @@
+Changes:
+# Always active when married
+  - Action: EditData
+    Target: Strings/StringsFromCSFiles
+    When:
+      "Relationship:EdelweissSeung": "Married"
+    Entries:
+      "Event.cs.1691": "{{i18n:Welwick.Base}}"
+      "Event.cs.1695": "{{i18n:Welwick.Money}}"
+      "Event.cs.1831": "{{i18n:Welwick.Prediction.1}}"
+      "Event.cs.1832": "{{i18n:Welwick.Prediction.2}}"
+      "Event.cs.1852": "{{i18n:Welwick.Prediction.3}}"
+      "Event.cs.1827": "{{i18n:Welwick.Prediction.4}}"
+      "Event.cs.1829": "{{i18n:Welwick.Prediction.5}}"
+      "Event.cs.1694": "{{i18n:Welwick.End}}"
+  - Action: EditData
+    Target: Strings/StringsFromCSFiles
+    When:
+      "Relationship:EdelweissSeung": "Dating"
+      "Override Generic Dialogue": True
+    Entries:
+      "NPC.cs.3980": "{{i18n:EdelMermaidAccept}}"
+  - Action: EditData
+    Target: Strings/StringsFromCSFiles
+    Entries:
+      "EdelweissSeung_Engaged": "{{i18n:Edelengaged_0}}#$action AddMail Current EdelMarried received"
+      "EdelweissSeung_AfterWedding": "{{i18n:Edelaftermarry_{{Random:{{Range: 0, 5}}}}}}#$action AddMail Current EdelMarried all"
+  - Action: EditData
+    Target: Strings/Characters
+    Entries:
+      "MovieInvite_Invited_EdelweissSeung": "{{i18n:MovieInvite_Invited_EdelweissSeung}}"
+  - Action: EditData
+    Target: Strings/StringsFromMaps
+    Entries:
+      "26053Books": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}"
+      "26053Kitchen": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}"
+      "EdelweissCoat": "{{i18n:EdelweissCoat}}"
+      "EdelHouse.1": "{{i18n:EdelHouse.1}}"
+      "EdelHouse.2": "{{i18n:EdelHouse.2}}"
+      "EdelHouse.3": "{{i18n:EdelHouse.3}}"
+      "EdelHouse.4": "{{i18n:EdelHouse.4}}"
+      "EdelHouse.5": "{{i18n:EdelHouse.5}}"
+      "EdelHouse.6": "{{i18n:EdelHouse.6}}"
+      "EdelHouse.7": "{{i18n:EdelHouse.7}}"
+      "EdelHouse.8": "{{i18n:EdelHouse.8}}"
+      "EdelHouse.9": "{{i18n:EdelHouse.9}}"
+      "EdelHouse.10": "{{i18n:EdelHouse.10}}"
+      "EdelHouse.11": "{{i18n:EdelHouse.11}}"
+      "EdelHouse.12": "{{i18n:EdelHouse.12}}"
+      "EdelHouse.13": "{{i18n:EdelHouse.13}}"
+      "EdelHouse.14": "{{i18n:EdelHouse.14}}"
+      "EdelHouse.15": "{{i18n:EdelHouse.15}}"
+      "EdelHouse.16": "{{i18n:EdelHouse.16}}"
+      "26053TV": "{{i18n:26053TV_{{Random:{{Range: 0, 5}}}}}}"
+      "EdelHouse.18": "{{i18n:EdelHouse.18}}"
+      "EdelHouse.19": "{{i18n:EdelHouse.19}}"
+      "EdelHouse.20": "{{i18n:EdelHouse.20}}"
+      "EdelHouse.21": "{{i18n:EdelHouse.21}}"
+      "EdelHouse.22": "{{i18n:EdelHouse.22}}"
+      "EdelHouse.23": "{{i18n:EdelHouse.23}}"
+      "EdelHouse.24": "{{i18n:EdelHouse.24}}"
+      "EdelHouse.25": "{{i18n:EdelHouse.25}}"
+      "EdelHouse.26": "{{i18n:EdelHouse.26}}"
+      "EdelGoat": "{{i18n:EdelGoat}}"
+      "EdelBear": "{{i18n:EdelBear}}"
+      "EdelJewel": "{{i18n:EdelJewel}}"
+      "EdelJunimo": "{{i18n:EdelJunimo}}"
+      "EdelGrave": "{{i18n:EdelGrave}} #$action AddMail Current EdelGrave received"
